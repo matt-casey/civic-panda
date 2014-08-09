@@ -2,5 +2,13 @@
 
 angular.module('civicPandaApp')
   .service('Filters', function Filters() {
-    // AngularJS will instantiate a singleton by calling "new" on this function
+  	// BASICALLY CONSTANTS
+    return {
+    	categories: categories,
+    	types: types,
+    	subtypes: subtypes,
+    	changes: changes,
+    	progresses: progresses,
+    	zones: zones
+    }
   });

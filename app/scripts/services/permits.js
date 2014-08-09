@@ -2,5 +2,10 @@
 
 angular.module('civicPandaApp')
   .service('Permits', function Permits() {
-    // AngularJS will instantiate a singleton by calling "new" on this function
+    return {
+    	// dumb return of all permit list
+    	getAll: getAll,
+    	// returns filtered list based on selections taken as params
+    	getFiltered: getFiltered
+    }
   });
