@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .service('State', function State() {
+  .service('State', function State(Permits) {
 
   	var currentProperty = 0;
   	var state = {
@@ -21,6 +21,10 @@ angular.module('civicPandaApp')
 	  		}
   		]
   	}
+
+    var permitsCost = 0,
+        permitsMaxDuration = 0,
+        permitsMinDuration = 0; 
 
 	// used to simulate log in and log out
   	function overwriteState(newState) {
@@ -61,7 +65,41 @@ angular.module('civicPandaApp')
   		else{
   			state.properties[currentProperty]['selections'][type].splice(location, 1);
   		}
+
+      calculePermitsInfo()
   	}
+
+    function calculePermitsInfo(){
+      var permits = Permits.getFiltered(getSelection());
+      sumPermitsDuration(permits);
+      sumPermitsCost(permits);
+    }
+
+    function sumPermitsCost(permits){
+      permitsCost = 0;
+      for(var x = 0; x < permits.length; x++){
+        permitsCost += permits[x].cost;
+      }
+    }
+
+    function sumPermitsDuration(permits){
+      permitsMinDuration = 0;
+      for(var x = 0; x < permits.length; x++){
+        permitsMinDuration += permits[x].minDuration;
+      }
+      permitsMaxDuration = 0;
+      for(var x = 0; x < permits.length; x++){
+        permitsMaxDuration += permits[x].maxDuration;
+      }
+    }
+
+    function getPermitsInfo(){
+      return {
+        cost: permitsCost,
+        maxDuration: permitsMaxDuration,
+        minDuration: permitsMinDuration,
+      }
+    }
 
     return {
     	overwriteState: overwriteState,
@@ -69,6 +107,7 @@ angular.module('civicPandaApp')
     	selection: getSelection,
     	setProperty: setProperty,
     	toggleSelection: toggleSelection,
-    	makeSelection: makeSelection
+    	makeSelection: makeSelection,
+      getPermitsInfo : getPermitsInfo
     }
   });
