@@ -1,30 +1,32 @@
 <div>
 	<div class="col-xs-12">
 		<div ng-hide="isLoggedIn">
-			<div class="col-xs-3">
-				You will need {{processSummary.total}} permits
+			<div class="col-xs-10">
+				<h2>You will need {{processSummary.total}} permits</h2>
 			</div>
 		</div>
 		<div ng-show="isLoggedIn">
-			<div class="col-xs-3">
-				{{processSummary.outstanding}} permits outsanding
+			<div class="col-xs-6">
+				<h2>{{processSummary.outstanding}} permits outsanding</h2>
 			</div>
-			<div class="col-xs-3">
-				Do Now ({{processSummary.now}})
+			<div class="col-xs-2">
+				<button>Do Now ({{processSummary.now}})</button>
 			</div>
-			<div class="col-xs-3">
-				Pending ({{processSummary.pending}})
+			<div class="col-xs-2">
+				<button>Pending ({{processSummary.pending}})</button>
 			</div>
-			<div class="col-xs-3">
-				Done ({{processSummary.done}})
+			<div class="col-xs-2">
+				<button>Done ({{processSummary.done}})</button>
 			</div>
 		</div>
 	</div>
-	<div ng-repeat="group in groups"> {{group.name}}
-		<div class="col-xs-12" ng-repeat="permit in group.permits"> {{permit.name}}
+	<div ng-repeat="group in groups">
+		<h2>{{group.name}}</h2>
+		<div class="col-xs-12" ng-repeat="permit in group.permits">
+			<h3> {{permit.name}} </h3>
 			<div class="tooltips" ng-click="openToolTips()"></div>
 			<div class="col-xs-3" ng-repeat="section in permit.process.process"> {{section.name}}
-				<div ng-hide = "permit.newPermit">
+				<div ng-hide="permit.newPermit">
 					<div class="section-complteted" ng-show="section.completed">
 						C
 					</div>

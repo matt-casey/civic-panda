@@ -28,7 +28,7 @@ angular.module('civicPandaApp')
               id: 1,
               name: 'Impact Coolers',
               saved: true,
-              selections: { types: [2], categories: [1], changes: [1], subtypes : [], progresses: [], zones: [] }
+              selections: { types: [3], categories: [1], changes: [1], subtypes : [], progresses: [], zones: [] }
             }
   	  		]
   	  	}
