@@ -3,12 +3,12 @@
 
 	<!-- SHOWN on STEP-PREVIOUS -->
 	<h3 class="step-previous-show">{{step.output + selection[step.type][0]}}</h3>
-
 	<!-- HIDDEN on STEP-PREVIOUS -->
 	<h3 class="step-previous-hide">{{step.name}}</h3>
 
+	<ng-include src="step.form"></ng-include>
+
 	<!-- HIDDEN on STEP-PREVIOUS and STEP-FORTHCOMING -->
-	<ng-include class="step-previous-hide step-forthcoming-hide" src="step.form"></ng-include>
 	<div class="col-xs-12 step-previous-hide step-forthcoming-hide">
 		<button ng-click="nextStep()" ng-show="allowNextStep(step.type)">continue</button>
 	</div>

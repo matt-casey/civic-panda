@@ -8,6 +8,7 @@ angular.module('civicPandaApp')
 
   	Filters.getList('types').then( function(data) {$scope.types = data} );
   	Filters.getList('subtypes').then( function(data) {$scope.subtypes = data} );
+  	Filters.getList('changes').then( function(data) {$scope.changes = data} );
 
   	var names = ['What are you making', 'Your business information', 'Where are you located'];
   	var forms = ['views/input_one.html', 'views/input_two.html', 'views/input_three.html'];
@@ -25,7 +26,7 @@ angular.module('civicPandaApp')
   	}
 
   	$scope.allowNextStep = function(type) {
-  		return State.selection()[type].length > 0;
+  		return $scope.selection[type].length > 0;
   	}
 
   	$scope.nextStep = function() {
