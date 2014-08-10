@@ -4,6 +4,7 @@ angular.module('civicPandaApp')
   .service('State', function State($rootScope, Permits) {
 
   	var currentProperty = 0;
+    var currentStep = 0;
   	var state = {
   		name: '',
   		properties: [
@@ -127,6 +128,7 @@ angular.module('civicPandaApp')
     	makeSelection: makeSelection,
     	getPermitsInfo : getPermitsInfo,
     	getUsername: getUsername,
-      isLoggedIn: isLoggedIn
+      isLoggedIn: isLoggedIn,
+      currentStep: currentStep
     }
   });

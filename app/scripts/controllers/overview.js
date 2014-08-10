@@ -44,7 +44,7 @@ angular.module('civicPandaApp')
   		$scope.projectDetails = State.getPermitsInfo();
       getOtherProjects();
   		if ($scope.getUsername().length === 0) {
-		    $location.path('user-input/0');
+		    $location.path('user-input');
   		}
   		else {
 	        $location.path('results');

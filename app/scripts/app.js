@@ -9,7 +9,7 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/user-input/:stepNumber', {
+      .when('/user-input', {
         templateUrl: 'views/input.html',
         controller: 'InputCtrl'
       })
@@ -18,6 +18,6 @@ angular
         controller: 'ResultsCtrl'
       })
       .otherwise({
-        redirectTo: '/user-input/0'
+        redirectTo: '/user-input'
       });
   });
