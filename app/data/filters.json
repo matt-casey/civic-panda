@@ -1,1 +1,69 @@
-{ "categories": [ {"id ":1,"name":"business"},{"id ":2,"name":"residential"}],"types" : [{"id":1,"name":"Restaurant"},{"id":2,"name":"Salon"},{"id":3,"name":"Retail"},{"id":4,"name":"Grocery"},{"id":5,"name":"Farmers' Market"},{"id":6,"name":"Food truck "}], "subtypes" :[{"id":1,"name":"entertainment"},{"id":2,"name":"video"},{"id":3,"name":"drumpster"},{"id":4,"name":"alcohol "},{"id":5,"name":"out door seating"}], "changes" : [{"id":1,"name":"wall"},{"id":2,"name":"plumbing"},{"id":3,"name":"electrical"},{"id":4,"name":"gas"}], "progresses": [{"id":1,"name":"waiting"},{"id":2,"name":"approved"},{"id":3,"name":"inspected"},{"id":4,"name":"done"}]}
+{
+	"categories": [{
+		"id ": 1,
+		"name": "business"
+	},{
+		"id ":2,
+		"name":"residential"
+	}],
+	"types" : [{
+		"id":1,
+		"name":"Restaurant"
+	},{
+		"id":2,
+		"name":"Salon"
+	},{
+		"id":3,
+		"name":"Retail"
+	},{
+		"id":4,
+		"name":"Grocery"
+	},{
+		"id":5,
+		"name":"Farmers' Market"}
+	,{
+		"id":6,
+		"name":"Food truck "
+	}], 
+	"subtypes" :[{
+		"id":1,
+		"name":"entertainment"
+	},{
+		"id":2,
+		"name":"video"
+	},{
+		"id":3,
+		"name":"drumpster"
+	},{
+		"id":4,
+		"name":"alcohol "
+	},{
+		"id":5,
+		"name":"out door seating"
+	}], 
+	"changes" : [{
+		"id":1,
+		"name":"wall"
+	},{
+		"id":2,
+		"name":"plumbing"
+	},{
+		"id":3,
+		"name":"electrical"
+	},{
+		"id":4,
+		"name":"gas"
+	}], 
+	"progresses": [{
+		"id":1,
+		"name":"waiting"
+	},{
+		"id":2,
+		"name":"approved"
+	},{
+		"id":3,
+		"name":"inspected"
+	},{
+		"id":4,
+		"name":"done"}]
+}
