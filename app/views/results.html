@@ -26,16 +26,16 @@
 			<h3> {{permit.name}} </h3>
 			<div class="tooltips" ng-click="openToolTips()"></div>
 			<div class="col-xs-3" ng-repeat="section in permit.process.process">
-				<div class="icon status-icon {{section.name}}" ng-class="{'status-active':section.web !== null, 'status-completed':section.status !== null}"></div>
-				<div ng-show="$index !== 0" class="status-icon-connector"></div>
+				<div class="icon status-icon {{section.name.replace(' ', '_')}}" ng-class="{'status-active':section.pending, 'status-completed':section.completed}"></div>
+				<div ng-show="$index !== 0" class="status-icon-connector" ng-class="{'status-active':section.pending, 'status-completed':section.completed}"></div>
 				{{section.name}}
 				<div ng-hide="permit.newPermit">
-					<div class="section-complteted" ng-show="section.completed">
+<!-- 					<div class="section-complteted" ng-show="section.completed">
 						C
 					</div>
 					<div class="section-complteted" ng-show="section.pending">
 						P
-					</div>
+					</div> -->
 					<div class="permit-action selectable" ng-show="section.web !== null">
 						{{section.web.name}}
 					</div>

@@ -25,15 +25,15 @@ $sprite-sheet: "../images/spritemap.png";
 		background-position-x: 10px;
 		background-position-y: -125px;
 	}
-	&.Work.approval{
+	&.Work_approval{
 		background-position-x: -88px;
 		background-position-y: -125px;
 	}
-	&.In.progress{
+	&.In_progress{
 		background-position-x: -190px;
 		background-position-y: -125px;
 	}
-	&.Final.approval{
+	&.Final_approval{
 		background-position-x: -290px;
 		background-position-y: -125px;
 	}
@@ -50,17 +50,36 @@ $sprite-sheet: "../images/spritemap.png";
 	border: solid 1px;
 	z-index: 1;
 	position: relative;
+	margin: 5px 0;
+	background-color: rgb(122,114,118);
 }
 .status-icon-connector{
 	position: absolute;
-	right: 90%;
-	top: 25px;
 	width: 100%;
-	border-top: solid 1px $accent-primary;
+	top: 25px;
+	left: -70%;
 	z-index: 0;
+	margin: 5px 0;
+	border-top: solid 1px;
+}
+.status-icon-connector.status-active{
+	border-top: solid 1px $accent-primary;
+}
+.status-icon-connector.status-completed{
+	border-top: solid 1px $accent-secondary;
 }
 .status-icon.status-active{
 	background-color: $accent-primary;
+	border: solid 1px $accent-primary;
+}
+.status-icon.status-active:before{
+	content: "";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+	left: -6px;
+	top: -6px;
 	border: solid 1px $accent-primary;
 }
 .status-icon.status-completed{
