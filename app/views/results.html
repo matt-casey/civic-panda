@@ -1,5 +1,5 @@
-<div>
-	<div class="col-xs-12">
+<div class="full-page-scroll">
+	<div class="col-xs-10 col-xs-offset-1">
 		<div ng-hide="isLoggedIn">
 			<div class="col-xs-10">
 				<h2>You will need {{processSummary.total}} permits</h2>
@@ -20,12 +20,15 @@
 			</div>
 		</div>
 	</div>
-	<div ng-repeat="group in groups">
+	<div class="col-xs-10 col-xs-offset-1" ng-repeat="group in groups">
 		<h2>{{group.name}}</h2>
 		<div class="col-xs-12" ng-repeat="permit in group.permits">
 			<h3> {{permit.name}} </h3>
 			<div class="tooltips" ng-click="openToolTips()"></div>
-			<div class="col-xs-3" ng-repeat="section in permit.process.process"> {{section.name}}
+			<div class="col-xs-3" ng-repeat="section in permit.process.process">
+				<div class="icon status-icon {{section.name}}" ng-class="{'status-active':section.web !== null, 'status-completed':section.status !== null}"></div>
+				<div ng-show="$index !== 0" class="status-icon-connector"></div>
+				{{section.name}}
 				<div ng-hide="permit.newPermit">
 					<div class="section-complteted" ng-show="section.completed">
 						C
@@ -33,13 +36,13 @@
 					<div class="section-complteted" ng-show="section.pending">
 						P
 					</div>
-					<div ng-show="section.web !== null">
+					<div class="permit-action selectable" ng-show="section.web !== null">
 						{{section.web.name}}
 					</div>
-					<div ng-show="section.status !== null">
+					<div class="permit-status-completed" ng-show="section.status !== null">
 						{{section.status}}
 					</div>
-					<div ng-show="section.date !== null">
+					<div class="permit-action-completed" ng-show="section.date !== null">
 						{{section.date}}
 					</div>
 				</div>

@@ -61,7 +61,8 @@ body{
 }
 
 .blurred-image{
-	-webkit-filter: blur(15px) grayscale(0.3);
+	// -webkit-filter: blur(15px) grayscale(0.3);
+	background-image: url($background-image_blurred);
 	transition: ease-out 0.6s all;
 }
 
@@ -88,6 +89,13 @@ body{
 	width: 100%;
 }
 
+.full-page-scroll{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow:scroll;
+}
+
 .full-page_fixed{
 	position: fixed;
 	left: -50px;
@@ -110,3 +118,4 @@ body{
 @import "buttons.scss";
 @import "icons.scss";
 @import "inputscreen.scss";
+@import "results.scss";

@@ -21,9 +21,49 @@ $sprite-sheet: "../images/spritemap.png";
 		right: 0;
 		top: -68px;
 	}
+	&.Application{
+		background-position-x: 10px;
+		background-position-y: -125px;
+	}
+	&.Work.approval{
+		background-position-x: -88px;
+		background-position-y: -125px;
+	}
+	&.In.progress{
+		background-position-x: -190px;
+		background-position-y: -125px;
+	}
+	&.Final.approval{
+		background-position-x: -290px;
+		background-position-y: -125px;
+	}
+
 }
 .icon-label{
 	left: 125px;
 	position: absolute;
 	right: 25px;
+}
+
+.status-icon{
+	border-radius: 50px;
+	border: solid 1px;
+	z-index: 1;
+	position: relative;
+}
+.status-icon-connector{
+	position: absolute;
+	right: 90%;
+	top: 25px;
+	width: 100%;
+	border-top: solid 1px $accent-primary;
+	z-index: 0;
+}
+.status-icon.status-active{
+	background-color: $accent-primary;
+	border: solid 1px $accent-primary;
+}
+.status-icon.status-completed{
+	background-color: $accent-secondary;
+	border: solid 1px $accent-secondary;
 }
