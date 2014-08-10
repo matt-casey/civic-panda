@@ -39,10 +39,7 @@ angular.module('civicPandaApp')
   	function getProperties() {
   		var output = [];
   		for (var i = 0; i < state.properties.length; i++) {
-  			var prop = {};
-  			prop.id   = state.properties[i].id;
-  			prop.name = state.properties[i].name;
-  			output.push(prop);
+  			output.push(state.properties[i]);
   		};
   		return output;
   	}
@@ -59,6 +56,7 @@ angular.module('civicPandaApp')
 
   	function setProperty(index) {
   		index < state.properties.length ? currentProperty = index : currentProperty = 0;
+      $rootScope.$broadcast('stateChange');
   	}
 
   	function makeSelection(type, index) {
