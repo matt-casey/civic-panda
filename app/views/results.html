@@ -30,9 +30,14 @@
 				<div class="section-complteted" ng-show="section.pending">
 					P
 				</div>
+				<div ng-show="section.web !== null">
+					{{section.web.name}}
+				</div>
 			</div>
 			<div ng-show = "permit.newPermit">
-				New Permit Progess Line ...
+				<div ng-show="section.web !== null">
+					{{section.web.name}}
+				</div>
 			<div>
 		</div>
 	</div>
