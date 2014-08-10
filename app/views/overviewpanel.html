@@ -1,13 +1,14 @@
-<div class="col-xs-12" ng-show="username().length > 0">
-	{{username()}}
+<div class="col-xs-12" ng-show="getUsername().length > 0">
+	{{getUsername()}}
 </div>
 <!-- show if SAVED -->
 <div class="col-xs-12" ng-hide="!project.saved">
 	{{project.name}}
 </div>
 <!-- show if NOT SAVED -->
-<div class="col-xs-12" ng-show="!project.saved">
-	<input type="text" ng-model="project.name">
+<div class="col-xs-12" ng-show="!project.saved" ng-init="editName = false">
+	<h3 ng-hide="editName" ng-click="editName = true">{{project.name}}</h3>
+	<input ng-show="editName" type="text" ng-model="project.name">
 </div>
 <div class="col-xs-12" ng-show="!project.saved">
 	<button>Save Project</button>
@@ -28,9 +29,9 @@
 </div>
 
 <!-- USER MGMT -->
-<div class="col-xs-12" ng-show="username().length == 0" ng-click="logIn()">
+<div class="col-xs-12" ng-show="getUsername().length == 0" ng-click="logIn()">
 	Sign In
 </div>
-<div class="col-xs-12" ng-show="username().length > 0" ng-click="logOut()">
+<div class="col-xs-12" ng-show="getUsername().length > 0" ng-click="logOut()">
 	Log Out
 </div>

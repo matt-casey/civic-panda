@@ -1,0 +1,11 @@
+button{
+	border: none;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 40px;
+	border-radius: 20px;
+	background-color: $action-light;
+}
+.overview-pannel button{
+	background-color: $action-dark;
+}

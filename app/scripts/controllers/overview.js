@@ -6,7 +6,7 @@ angular.module('civicPandaApp')
 
   	$scope.logIn = User.logIn;
   	$scope.logOut = User.logOut;
-  	$scope.username = State.getUsername;
+  	$scope.getUsername = State.getUsername;
   	
   	$scope.project = State.property();
   	$scope.projectDetails = State.getPermitsInfo();
@@ -17,7 +17,7 @@ angular.module('civicPandaApp')
   	$scope.$on('stateChange', function() {
   		$scope.project = State.property();
   		$scope.projectDetails = State.getPermitsInfo();
-  		if ($scope.username().length === 0) {
+  		if ($scope.getUsername().length === 0) {
 		  	$location.path('user-input/0');
   		}
   		else {

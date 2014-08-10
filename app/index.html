@@ -23,9 +23,12 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="row full-page">
+    <div class="content row full-page">
         <div class="overview-pannel col-xs-3" ng-include="'views/overviewPanel.html'" ng-controller="OverviewCtrl"></div>
         <div class="main-content col-xs-9" ng-view=""></div>
+    </div>
+    <div class="background-image-container background-image full-page_fixed" ng-class="{'hide-blurred':!blurImage}">
+        <div class="background-image full-page blurred-image"></div>
     </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
