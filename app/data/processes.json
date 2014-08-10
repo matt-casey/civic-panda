@@ -11,14 +11,14 @@
       {
         "id": 2,
         "name": "work approval",
-        "completed": false,
-        "pending": true
+        "completed": true,
+        "pending": false
       },
       {
         "id": 3,
         "name": "working progress",
-        "completed": false,
-        "pending": true
+        "completed": true,
+        "pending": false
       },
       {
         "id": 4,
