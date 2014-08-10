@@ -13,23 +13,26 @@ angular.module('civicPandaApp')
   		]
   	}
 
-  	var phil = {
-  		name: 'Phil',
-  		properties: [
-	  		{
-	  			id: 0,
-	  			name: '',
-	  			selections: { categories: [], types: [], subtypes: [], changes: [], progresses: [], zones: [] }
-	  		}
-  		]
-  	}
+  	var users = [
+  		{
+  	  		name: 'Phil',
+  	  		properties: [
+  		  		{
+  		  			id: 0,
+  		  			name: '',
+  		  			selections: { categories: [], types: [], subtypes: [], changes: [], progresses: [], zones: [] }
+  		  		}
+  	  		]
+  	  	}
+  	]
 
   	function logOut() {
   		State.overwriteState(emptySelection);
   	}
 
-  	function logIn() {
-  		State.overwriteState(phil);
+  	function logIn(userId) {
+  		var index = userId || 0;
+  		State.overwriteState(index);
   	}
 
     return {
