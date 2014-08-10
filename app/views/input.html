@@ -10,5 +10,5 @@
 	<ng-include class="collapsed-off" src="step.form"></ng-include>
 
 	<!-- continue button -->
-	<button ng-click="nextStep()" ng-show="allowNext(step.type)">continue</button>
+	<button class="collapsed-off" ng-click="nextStep()" ng-show="allowNextStep(step.type)">continue</button>
 </div>

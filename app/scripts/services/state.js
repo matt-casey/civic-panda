@@ -49,6 +49,10 @@ angular.module('civicPandaApp')
   		index < state.properties.length ? currentProperty = index : currentProperty = 0;
   	}
 
+  	function makeSelection(type, index) {
+  		state.properties[currentProperty]['selections'][type] = [index];
+  	}
+
   	function toggleSelection(type, index) {
   		var location = getSelection()[type].indexOf(index);
   		if (location < 0) {
@@ -64,6 +68,7 @@ angular.module('civicPandaApp')
     	properties: getProperties,
     	selection: getSelection,
     	setProperty: setProperty,
-    	toggleSelection: toggleSelection
+    	toggleSelection: toggleSelection,
+    	makeSelection: makeSelection
     }
   });

@@ -4,6 +4,7 @@ angular.module('civicPandaApp')
   .controller('InputCtrl', function ($scope, $location, State) {
   	$scope.selection = State.selection();
   	$scope.toggle = State.toggleSelection;
+  	$scope.select = State.makeSelection;
 
   	var names = ['What are you making', 'Your business information', 'Where are you located'];
   	var forms = ['views/input_one.html', 'views/input_two.html', 'views/input_three.html'];
@@ -14,14 +15,15 @@ angular.module('civicPandaApp')
   		{id: 2, display: '3', name: names[2], type: 'zones',      output: "",               form: forms[2] }
   	];
 
-  	function allowNext(type) {
-  		return State.selection()[type].length > 0;
-  	}
-
   	$scope.currentStep = 0;
 
   	$scope.setStep = function(ind) {
   		$scope.currentStep = ind;
+  	}
+
+  	$scope.allowNextStep = function(type) {
+  		console.log('can I?', type, State.selection()[type].length);
+  		return State.selection()[type].length > 0;
   	}
 
   	$scope.nextStep = function() {
