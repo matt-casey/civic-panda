@@ -127,9 +127,13 @@ angular.module('civicPandaApp')
 			if(isInFinalApproval && process[3].completed === true) amountDone++;
 			if(isPending(process)) amountPending++;
 		}
+        var total = $scope.permits.length;
 		$scope.processSummary = {
 			done : amountDone,
-			pending : amountPending
+			pending : amountPending,
+            outstanding: total - amountDone,
+            now: total - amountDone - amountPending,
+            total: total
 		}
 	}
 	///////
