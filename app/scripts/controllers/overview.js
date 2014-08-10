@@ -18,10 +18,12 @@ angular.module('civicPandaApp')
   		$scope.project = State.property();
   		$scope.projectDetails = State.getPermitsInfo();
   		if ($scope.username().length === 0) {
-		  	$location.path('user-input/0');
+		    $location.path('user-input/0');
+        $scope.$emit('logout');
   		}
   		else {
-			$location.path('results');
+        $location.path('results');
+        $scope.$emit('login');
   		}
   	});
   });

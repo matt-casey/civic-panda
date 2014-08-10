@@ -22,7 +22,7 @@ angular.module('civicPandaApp')
   		  			id: 0,
   		  			name: 'Impact Radiators',
   		  			saved: true,
-  		  			selections: { categories: [], types: [], subtypes: [], changes: [], progresses: [], zones: [] }
+  		  			selections: { types: [1], categories: [1], changes: [0], subtypes : [1], progresses: [], zones: [] }
   		  		}
   	  		]
   	  	}
