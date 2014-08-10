@@ -6,6 +6,9 @@ button{
 	border-radius: 20px;
 	background-color: $action-light;
 }
+button.action-button{
+	background-color: $accent-primary;
+}
 .overview-pannel button{
 	background-color: $action-dark;
 }

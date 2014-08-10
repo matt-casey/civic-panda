@@ -21,6 +21,26 @@
 	display: none;
 }
 
+.list-item{
+	line-height: 50px;
+	height: 50px;
+	padding-left: 55px;
+	position: relative;
+}
+.list-item:after{
+	content: "";
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	border: solid 1px;
+}
+.item-selected.list-item:after{
+	background-color: white;
+}
+
 .item-selected{
 	font-weight: bold;
 }
@@ -35,6 +55,7 @@
 	background-color: $primary;
 	margin-bottom: 2px;
 	transition: ease-out all 0.5s;
+	padding-bottom: 20px;
 }
 .step-forthcoming .input-step{
 	background-color: $secondary;

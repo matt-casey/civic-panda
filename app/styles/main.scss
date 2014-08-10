@@ -73,6 +73,15 @@ body{
 	z-index: 1;
 }
 
+.centered-text{
+	text-align: center;
+}
+
+.selectable:hover{
+	background-color: rgba(245, 245, 245, 0.15);
+	border-radius: 15px;
+}
+
 .full-page{
 	position: absolute;
 	height: 100%;
@@ -99,4 +108,5 @@ body{
 }
 
 @import "buttons.scss";
+@import "icons.scss";
 @import "inputscreen.scss";

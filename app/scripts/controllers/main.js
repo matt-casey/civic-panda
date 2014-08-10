@@ -8,7 +8,7 @@ angular.module('civicPandaApp')
   	function init() {
   		$timeout(function(){
   			$scope.blurImage = true;
-  		}, 2500)
+  		}, 1000)
   	}
   	init();
 

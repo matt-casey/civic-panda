@@ -1,13 +1,13 @@
 <!-- SHOWN DURING QUESTIONS -->
 <div class="step-previous-hide step-forthcoming-hide" ng-init="temp">
   <div class="form-group col-xs-12">
-    <input type="text" ng-model="temp" ng-change="temp = '143 Starboard Drive'; select('zones',1);"></input>
+    <input class="form-control" type="text" ng-model="temp" ng-change="temp = '143 Starboard Drive'; select('zones',1);"></input>
   </div>
   <div class="col-xs-12" ng-show="temp.length > 0">
     <h2>Do you plan on doing any of the following at this location</h2>
     <h4>Please check all that apply</h4>
   </div>
-  <div  class="col-xs-6"
+  <div  class="col-xs-6 selectable list-item"
         ng-repeat="change in changes"
         ng-click="toggle('changes', change.id)"
         ng-show="allowNextStep(step.type)"

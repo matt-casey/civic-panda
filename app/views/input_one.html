@@ -1,4 +1,13 @@
 <div class="step-previous-hide step-forthcoming-hide" >
-	<div class="col-xs-6" ng-click="select('categories', 0); nextStep()">Home</div>
-	<div class="col-xs-6" ng-click="select('categories', 1); nextStep()">Business</div>
+	<div class="selectable col-xs-6" ng-click="select('categories', 0); nextStep()">
+		<div class="pull-left icon home"></div>
+		<h3 class="icon-label pull-left">Home Construction</h3>
+	</div>
+	<div class="selectable col-xs-6" ng-click="select('categories', 1); nextStep()">
+		<div class="pull-left icon briefcase"></div>
+		<h3 class="icon-label pull-left">Business</h3>
+	</div>
 </div>
+
+<!-- SHOWN AFTER QUESTIONS -->
+<div class="step-forthcoming-hide step-previous-show icon briefcase-small pull-right"></div>
