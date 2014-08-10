@@ -1,10 +1,13 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .controller('InputCtrl', function ($scope, $location, State) {
+  .controller('InputCtrl', function ($scope, $location, State, Filters) {
   	$scope.selection = State.selection();
   	$scope.toggle = State.toggleSelection;
   	$scope.select = State.makeSelection;
+
+  	Filters.getList('types').then( function(data) {$scope.types = data} );
+  	Filters.getList('subtypes').then( function(data) {$scope.subtypes = data} );
 
   	var names = ['What are you making', 'Your business information', 'Where are you located'];
   	var forms = ['views/input_one.html', 'views/input_two.html', 'views/input_three.html'];
@@ -22,7 +25,6 @@ angular.module('civicPandaApp')
   	}
 
   	$scope.allowNextStep = function(type) {
-  		console.log('can I?', type, State.selection()[type].length);
   		return State.selection()[type].length > 0;
   	}
 
@@ -37,5 +39,9 @@ angular.module('civicPandaApp')
 
   	$scope.lastStep = function() {
   		if ($scope.currentStep > 0) $scope.currentStep --;
+  	}
+
+  	$scope.isSelected = function(type, ind) {
+  		return $scope.selection[type].indexOf(ind) > -1;
   	}
   });

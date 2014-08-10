@@ -1,9 +1,23 @@
-.collapsed .collapsed-off{
+.step-previous .step-previous-hide{
 	display: none;
 }
-.collapsed .collapsed-on{
+.step-previous .step-previous-show{
 	display: block;
 }
-.collapsed-on{
+.step-previous-show{
 	display: none;
+}
+
+.step-forthcoming .step-forthcoming-hide{
+	display: none;
+}
+.step-forthcoming .step-forthcoming-show{
+	display: block;
+}
+.step-forthcoming-show{
+	display: none;
+}
+
+.item-selected{
+	font-weight: bold;
 }

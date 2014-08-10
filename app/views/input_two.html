@@ -1,1 +1,10 @@
-<p>This is the input_two view.</p>
+<div class="form-group">
+  <select ng-options="type.id as type.name for type in types" ng-model="temp" ng-init="temp" ng-change="select('types',temp)"></select>
+</div>
+<div  class="col-xs-6"
+      ng-repeat="sub in subtypes"
+      ng-click="toggle('subtypes', sub.id)"
+      ng-show="allowNextStep(step.type)"
+      ng-class="{'item-selected':isSelected('subtypes',sub.id)}">
+      {{sub.name}}
+</div>
