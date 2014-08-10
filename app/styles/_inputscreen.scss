@@ -24,3 +24,20 @@
 .item-selected{
 	font-weight: bold;
 }
+
+.input-title{
+	height: 100px;
+	h2{
+		line-height: 140px;
+	}
+}
+
+.input-step{
+	background-color: $primary;
+}
+.step-forthcoming .input-step{
+	background-color: $secondary;
+}
+.step-previous .input-step{
+	background-color: $tertiary;
+}
