@@ -2,6 +2,9 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 @import 'bootstrap-sass-official/vendor/assets/stylesheets/bootstrap';
 
+// ROBOTO!!
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,700);
+
 // bower:scss
 @import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
@@ -37,6 +40,8 @@ $background-image_blurred:"/images/bgBlurred.jpg";
 *{
     box-sizing: border-box;
     color: $font-default;
+    font-family: 'Roboto-thin', 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 [ng-click]{
@@ -56,7 +61,7 @@ body{
 }
 
 .blurred-image{
-	-webkit-filter: blur(7px) grayscale(0.6);
+	-webkit-filter: blur(15px) grayscale(0.3);
 	transition: ease-out 0.6s all;
 }
 

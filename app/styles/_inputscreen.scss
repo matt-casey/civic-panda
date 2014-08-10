@@ -26,18 +26,29 @@
 }
 
 .input-title{
-	height: 100px;
 	h2{
-		line-height: 140px;
+		line-height: 80px;
 	}
 }
 
 .input-step{
 	background-color: $primary;
+	margin-bottom: 2px;
+	transition: ease-out all 0.5s;
 }
 .step-forthcoming .input-step{
 	background-color: $secondary;
 }
 .step-previous .input-step{
 	background-color: $tertiary;
+}
+
+.input-step-title{
+	width: 100%;
+	.number{
+		margin-right: 15px;
+	}
+	.number, .title-text{
+		line-height: 50px;
+	}
 }

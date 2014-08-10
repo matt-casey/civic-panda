@@ -5,14 +5,16 @@
 </div>
 <div class="input-step-row row" ng-class="{'step-previous': currentStep > step.id, 'step-forthcoming': currentStep < step.id}" ng-repeat="step in steps">
 	<div class="input-step col-xs-10 col-xs-offset-1">
-		<h1 ng-click="setStep(step.id)">{{step.display}}</h1>
+		<div class="input-step-title">
+			<h1 class="number pull-left" ng-click="setStep(step.id)">{{step.display}}.</h1>
 
-		<!-- SHOWN on STEP-PREVIOUS -->
-		<h3 class="step-previous-show">{{step.output + selection[step.type][0]}}</h3>
-		<!-- HIDDEN on STEP-PREVIOUS -->
-		<h3 class="step-previous-hide">{{step.name}}</h3>
+			<!-- SHOWN on STEP-PREVIOUS -->
+			<h3 class="title-text pull-left step-previous-show">{{step.output + selection[step.type][0]}}</h3>
+			<!-- HIDDEN on STEP-PREVIOUS -->
+			<h3 class="title-text pull-left step-previous-hide">{{step.name}}</h3>
+		</div>
 
-		<ng-include src="step.form"></ng-include>
+		<ng-include src="step.form" class="col-xs-12"></ng-include>
 
 		<!-- HIDDEN on STEP-PREVIOUS and STEP-FORTHCOMING -->
 		<div class="col-xs-12 step-previous-hide step-forthcoming-hide">
