@@ -28,6 +28,12 @@
 	unknown
 </div>
 
+<div ng-show = "secondProject.id !== undefined">
+	<div>
+		OtherProjects
+	</div>
+	<div ng-click="setSecondProject()"> {{secondProject.name}} </div>
+</div>
 <!-- USER MGMT -->
 <div class="col-xs-12" ng-show="getUsername().length == 0" ng-click="logIn()">
 	Sign In
