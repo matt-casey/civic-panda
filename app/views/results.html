@@ -1,13 +1,23 @@
 <div>
 	<div class="col-xs-12">
-		<div class="col-xs-3">
-			Summary
+		<div ng-hide="isLoggedIn">
+			<div class="col-xs-3">
+				You will need {{processSummary.total}} permits
+			</div>
 		</div>
-		<div class="col-xs-3">
-			Done ({{processSummary.done}})
-		</div>
-		<div class="col-xs-3">
-			Pending ({{processSummary.pending}})
+		<div ng-show="isLoggedIn">
+			<div class="col-xs-3">
+				{{processSummary.outstanding}} permits outsanding
+			</div>
+			<div class="col-xs-3">
+				Do Now ({{processSummary.now}})
+			</div>
+			<div class="col-xs-3">
+				Pending ({{processSummary.pending}})
+			</div>
+			<div class="col-xs-3">
+				Done ({{processSummary.done}})
+			</div>
 		</div>
 	</div>
 	<div class="col-xs-12" ng-repeat="permit in permits"> {{permit.name}}
