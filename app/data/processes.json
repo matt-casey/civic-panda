@@ -4,25 +4,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": true,
         "pending": false
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": true,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": true,
         "pending": false
       }
@@ -33,25 +33,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": true,
         "pending": false
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": true,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": false,
         "pending": true
       }
@@ -62,25 +62,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": true,
         "pending": false
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": true,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": false,
         "pending": true
       }
@@ -91,25 +91,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": true,
         "pending": false
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": true,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": true,
         "pending": false
       }
@@ -120,25 +120,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": true,
         "pending": false
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": true,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": false,
         "pending": true
       }
@@ -149,25 +149,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": true,
         "pending": false
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": true,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": false,
         "pending": false
       }
@@ -178,25 +178,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": true,
         "pending": false
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": true,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": true,
         "pending": false
       }
@@ -207,25 +207,25 @@
     "process": [
       {
         "id": 1,
-        "name": "application",
+        "name": "Application",
         "completed": true,
         "pending": false
       },
       {
         "id": 2,
-        "name": "work approval",
+        "name": "Work approval",
         "completed": false,
         "pending": true
       },
       {
         "id": 3,
-        "name": "working progress",
+        "name": "In progress",
         "completed": false,
         "pending": false
       },
       {
         "id": 4,
-        "name": "final approval",
+        "name": "Final approval",
         "completed": false,
         "pending": false
       }

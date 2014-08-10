@@ -114,6 +114,11 @@ angular.module('civicPandaApp')
     	return state.name;
     }
 
+    function isLoggedIn() {
+      console.log(state);
+      return state.name === '';
+    }
+
     return {
     	overwriteState: overwriteState,
     	properties: getProperties,
@@ -122,7 +127,8 @@ angular.module('civicPandaApp')
     	setProperty: setProperty,
     	toggleSelection: toggleSelection,
     	makeSelection: makeSelection,
-      	getPermitsInfo : getPermitsInfo,
-      	getUsername: getUsername
+    	getPermitsInfo : getPermitsInfo,
+    	getUsername: getUsername,
+      isLoggedIn: isLoggedIn
     }
   });

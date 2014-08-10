@@ -3,6 +3,7 @@
 angular.module('civicPandaApp')
   .controller('MainCtrl', function ($scope, $location, $timeout, Permits, Filters, Processes, User, State) {
   	Permits.init();
+
   	$scope.blurImage = false;
   	function init() {
   		$timeout(function(){
@@ -10,4 +11,5 @@ angular.module('civicPandaApp')
   		}, 2500)
   	}
   	init();
+
   });

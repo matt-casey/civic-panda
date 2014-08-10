@@ -13,12 +13,17 @@
 	<div class="col-xs-12" ng-repeat="permit in permits"> {{permit.name}}
 		<div class="tooltips"></div>
 		<div class="col-xs-3" ng-repeat="section in permit.process.process"> {{section.name}}
-			<div class="section-complteted" ng-show="section.completed">
-				C
+			<div ng-hide = "permit.newPermit">
+				<div class="section-complteted" ng-show="section.completed">
+					C
+				</div>
+				<div class="section-complteted" ng-show="section.pending">
+					P
+				</div>
 			</div>
-			<div class="section-complteted" ng-show="section.pending">
-				P
-			</div>
+			<div ng-show = "permit.newPermit">
+				New Permit Progess Line ...
+			<div>
 		</div>
 	</div>
 </div>
