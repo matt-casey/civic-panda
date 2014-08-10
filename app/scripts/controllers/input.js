@@ -3,6 +3,7 @@
 angular.module('civicPandaApp')
   .controller('InputCtrl', function ($scope, $location, State) {
   	$scope.selection = State.selection();
+  	$scope.toggle = State.toggleSelection;
 
   	var names = ['What are you making', 'Your business information', 'Where are you located'];
   	var forms = ['views/input_one.html', 'views/input_two.html', 'views/input_three.html'];
