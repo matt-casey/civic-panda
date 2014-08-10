@@ -9,6 +9,8 @@ angular.module('civicPandaApp')
     init();
     $scope.isLoggedIn = false;
 
+    $scope.groups = [];
+
     function init(){    
     	Permits.init().then(function(){
             var selection = State.selection();
@@ -16,9 +18,56 @@ angular.module('civicPandaApp')
         		Processes.init().then(function(){
         			updatePermitsWithProcesses();
         			calculateProcessSummary();
+                    catorizePermits();
         		})
     	});
     };
+
+    function catorizePermits() {
+        $scope.groups = [];
+        if ($scope.isLoggedIn === true){
+            var nowPermits = [];
+            if($scope.processSummary.now > 0){
+                for(var x = 0; x < $scope.permits.length; x ++){
+                    var permit = $scope.permits[x];
+                    if(permit.process.process[0].completed === false && permit.pending !== true)
+                        nowPermits.push(permit);
+                }
+            }
+
+            if(nowPermits.length > 0){
+                $scope.groups.push({ name: "Now", permits: nowPermits });
+                console.log($scope.groups);
+            }
+            var pendingPermits = [];
+            if($scope.processSummary.pending > 0){
+                for(var x = 0; x < $scope.permits.length; x ++){
+                    var permit = $scope.permits[x];
+                    if(isPending(permit.process.process))
+                        pendingPermits.push(permit);
+                }
+            }
+
+            if(pendingPermits.length > 0){
+                $scope.groups.push({ name: "Pending", permits: pendingPermits});
+            }
+
+            var donePermits = [];
+            if($scope.processSummary.done > 0){
+                for(var x = 0; x < $scope.permits.length; x ++){
+                    var permit = $scope.permits[x];
+                    if(permit.process.process[3].completed === true)
+                        donePermits.push(permit);
+                }
+            }
+            if(pendingPermits.length > 0){
+                $scope.groups.push({ name: "Done", permits: donePermits});
+            }
+        }else{
+            $scope.groups.push({ name: null, permits: $scope.permits});
+        }
+    }
+
 
     $scope.$on('stateChange', function() {
         $scope.isLoggedIn = true; 
@@ -147,7 +196,7 @@ angular.module('civicPandaApp')
 			if(process[x].pending === true)
 				counter ++;
 		}
-		return counter !== 0;	
+		return counter > 0;	
 	}
 
 	function calculateProcessSummary(){

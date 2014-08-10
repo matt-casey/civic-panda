@@ -250,16 +250,14 @@
       {
         "id": 1,
         "name": "Application",
-        "completed": true,
-        "pending": false,
-        "status": "Submitted",
-        "date": "Jun 18"
+        "completed": false,
+        "pending": false
       },
       {
         "id": 2,
         "name": "Work approval",
         "completed": false,
-        "pending": true
+        "pending": false
       },
       {
         "id": 3,
