@@ -2,7 +2,7 @@
 
 angular.module('civicPandaApp')
   .service('State', function State() {
-  	
+
   	var currentProperty = 0;
   	var state = {
   		name: '',
@@ -30,8 +30,10 @@ angular.module('civicPandaApp')
   	function getProperties() {
   		var output = [];
   		for (var i = 0; i < state.properties.length; i++) {
-  			output.id   = state.properties[i].id
-  			output.name = state.properties[i].name
+  			var prop = {};
+  			prop.id   = state.properties[i].id;
+  			prop.name = state.properties[i].name;
+  			output.push(prop);
   		};
   		return output;
   	}
