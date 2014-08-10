@@ -20,25 +20,33 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-xs-12" ng-repeat="permit in permits"> {{permit.name}}
-		<div class="tooltips"></div>
-		<div class="col-xs-3" ng-repeat="section in permit.process.process"> {{section.name}}
-			<div ng-hide = "permit.newPermit">
-				<div class="section-complteted" ng-show="section.completed">
-					C
+	<div ng-repeat="group in groups"> {{group.name}}
+		<div class="col-xs-12" ng-repeat="permit in group.permits"> {{permit.name}}
+			<div class="tooltips" ng-click="openToolTips()"></div>
+			<div class="col-xs-3" ng-repeat="section in permit.process.process"> {{section.name}}
+				<div ng-hide = "permit.newPermit">
+					<div class="section-complteted" ng-show="section.completed">
+						C
+					</div>
+					<div class="section-complteted" ng-show="section.pending">
+						P
+					</div>
+					<div ng-show="section.web !== null">
+						{{section.web.name}}
+					</div>
+					<div ng-show="section.status !== null">
+						{{section.status}}
+					</div>
+					<div ng-show="section.date !== null">
+						{{section.date}}
+					</div>
 				</div>
-				<div class="section-complteted" ng-show="section.pending">
-					P
-				</div>
-				<div ng-show="section.web !== null">
-					{{section.web.name}}
-				</div>
+				<div ng-show = "permit.newPermit">
+					<div ng-show="section.web !== null">
+						{{section.web.name}}
+					</div>
+				<div>
 			</div>
-			<div ng-show = "permit.newPermit">
-				<div ng-show="section.web !== null">
-					{{section.web.name}}
-				</div>
-			<div>
 		</div>
 	</div>
 </div>
