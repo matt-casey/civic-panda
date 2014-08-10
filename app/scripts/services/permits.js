@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .service('Permits', function Permits() {
+  .service('Permits', function Permits(Filters) {
     return {
     	// dumb return of all permit list
     	getAll: getAll,
