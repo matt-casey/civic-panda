@@ -43,22 +43,23 @@
 		<h4 class="col-xs-1">
 		<h4 class="col-xs-11">unknown</h4>
 	</div>
-</div>
 
-<div class="col-xs-12 col-xs-offset-1" ng-show="!project.saved">
-	<button> Save Project </button>
-</div>
+	<div class="selectable col-xs-9" ng-show = "secondProject.id !== undefined">
+		<div ng-click="setSecondProject()"> 
+			<h2>{{secondProject.name}}<h2>
+		</div>
+	</div>
 
+	<div class="col-xs-9" ng-show="!project.saved">
+		<button> Save Project </button>
+	</div>
 
-<div class="selectable col-xs-10 col-xs-offset-1" ng-show = "secondProject.id !== undefined">
-	<div ng-click="setSecondProject()"> 
-		<h2>{{secondProject.name}}<h2>
+	<div class="selectable col-xs-9" ng-show="getUsername().length == 0" ng-click="logIn()">
+		<h3>Sign In</h3>
+	</div>
+	<div class="selectable col-xs-9" ng-show="getUsername().length > 0" ng-click="logOut()">
+		<h3>Log Out</h3>
 	</div>
 </div>
+
 <!-- USER MGMT -->
-<div class="selectable col-xs-10 col-xs-offset-1" ng-show="getUsername().length == 0" ng-click="logIn()">
-	<h3>Sign In</h3>
-</div>
-<div class="selectable col-xs-10 col-xs-offset-1" ng-show="getUsername().length > 0" ng-click="logOut()">
-	<h3>Log Out</h3>
-</div>
