@@ -18,8 +18,8 @@ angular.module('civicPandaApp')
   	var forms = ['views/input_one.html', 'views/input_two.html', 'views/input_three.html'];
 
   	$scope.steps = [
-  		{id: 0, display: '1', name: names[0], type: 'categories', output: "I'm making a ",  form: forms[0] },
-  		{id: 1, display: '2', name: names[1], type: 'types', 	  output: "I'm opening a ", form: forms[1] },
+  		{id: 0, display: '1', name: names[0], type: 'categories', output: "I'm making a business",  form: forms[0] },
+  		{id: 1, display: '2', name: names[1], type: 'types', 	  output: "I'm opening a restaurant", form: forms[1] },
   		{id: 2, display: '3', name: names[2], type: 'zones',      output: "",               form: forms[2] }
   	];
 

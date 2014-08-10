@@ -21,10 +21,11 @@
 </div>
 
 <!-- SHOWN AFTER QUESTIONS -->
-<div class="step-forthcoming-hide step-previous-show">
-  <div  class="col-xs-6"
-        ng-repeat="sub in subtypes"
-        ng-show="isSelected('subtypes',sub.id)">
-        {{sub.name}}
-  </div>
+<div class="step-forthcoming-hide step-previous-show col-xs-8 col-xs-offset-2">
+  <span class="h3">
+    ...with 
+  </span>
+  <span class="h3" ng-repeat="sub in subtypes" ng-show="isSelected('subtypes',sub.id)">
+    - {{sub.name}} 
+  </span>
 </div>
