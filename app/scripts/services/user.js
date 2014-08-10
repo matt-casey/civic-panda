@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .service('User', function User(State) {
+  .service('User', function User($location, $rootScope, State) {
   	var emptySelection = {
   		name: '',
   		properties: [
@@ -30,11 +30,13 @@ angular.module('civicPandaApp')
 
   	function logOut() {
   		State.overwriteState(emptySelection);
+  		$rootScope.$broadcast('logIn');
   	}
 
   	function logIn(userId) {
   		var index = userId || 0;
   		State.overwriteState(users[index]);
+  		$rootScope.$broadcast('logOut');
   	}
 
     return {

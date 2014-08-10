@@ -1,10 +1,11 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .controller('OverviewCtrl', function ($scope, User, State) {
+  .controller('OverviewCtrl', function ($scope, $location, User, State) {
   	User.logOut();
 
   	$scope.logIn = User.logIn;
+  	$scope.logOut = User.logOut;
   	$scope.username = State.getUsername;
   	
   	$scope.project = State.property();
@@ -16,5 +17,11 @@ angular.module('civicPandaApp')
   	$scope.$on('stateChange', function() {
   		$scope.project = State.property();
   		$scope.projectDetails = State.getPermitsInfo();
+  		if ($scope.username().length === 0) {
+		  	$location.path('user-input/0');
+  		}
+  		else {
+			$location.path('results');
+  		}
   	});
   });

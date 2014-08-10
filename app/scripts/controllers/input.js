@@ -1,8 +1,12 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .controller('InputCtrl', function ($scope, $location, State, Filters) {
+  .controller('InputCtrl', function ($scope, $location, $routeParams, State, Filters) {
   	$scope.selection = State.selection();
+  	$scope.$on('stateChange', function(){
+  		$scope.selection = State.selection();
+  		$scope.currentStep = 0;
+  	})
   	$scope.toggle = State.toggleSelection;
   	$scope.select = State.makeSelection;
 
@@ -19,10 +23,11 @@ angular.module('civicPandaApp')
   		{id: 2, display: '3', name: names[2], type: 'zones',      output: "",               form: forms[2] }
   	];
 
-  	$scope.currentStep = 0;
+  	$scope.currentStep = $routeParams.stepNumber;
 
   	$scope.setStep = function(ind) {
   		$scope.currentStep = ind;
+  		$location.path('user-input/' + $scope.currentStep);
   	}
 
   	$scope.allowNextStep = function(type) {
@@ -32,6 +37,7 @@ angular.module('civicPandaApp')
   	$scope.nextStep = function() {
   		if ($scope.currentStep < $scope.steps.length - 1) { 
   			$scope.currentStep ++;
+  			$location.path('user-input/' + $scope.currentStep);
   		}
   		else {
   			$location.path('results');
@@ -39,7 +45,10 @@ angular.module('civicPandaApp')
   	}
 
   	$scope.lastStep = function() {
-  		if ($scope.currentStep > 0) $scope.currentStep --;
+  		if ($scope.currentStep > 0) {
+  			$scope.currentStep --;
+  			$location.path('user-input/' + $scope.currentStep);
+  		}
   	}
 
   	$scope.isSelected = function(type, ind) {

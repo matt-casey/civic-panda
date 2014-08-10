@@ -31,6 +31,7 @@ angular.module('civicPandaApp')
   	function overwriteState(newState) {
   		currentProperty = 0;
   		state = angular.copy(newState);
+  		calculePermitsInfo();
   		$rootScope.$broadcast('stateChange');
   	}
 

@@ -27,6 +27,10 @@
 	unknown
 </div>
 
+<!-- USER MGMT -->
 <div class="col-xs-12" ng-show="username().length == 0" ng-click="logIn()">
 	Sign In
+</div>
+<div class="col-xs-12" ng-show="username().length > 0" ng-click="logOut()">
+	Log Out
 </div>
