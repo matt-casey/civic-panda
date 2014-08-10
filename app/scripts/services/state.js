@@ -22,11 +22,13 @@ angular.module('civicPandaApp')
   		]
   	}
 
+	// used to simulate log in and log out
   	function overwriteState(newState) {
   		currentProperty = 0;
   		state = angular.copy(newState);
   	}
 
+  	// returns names and ids of all available properties
   	function getProperties() {
   		var output = [];
   		for (var i = 0; i < state.properties.length; i++) {
@@ -38,6 +40,7 @@ angular.module('civicPandaApp')
   		return output;
   	}
 
+  	// gets the selections for the selected property used in user input section
   	function getSelection() {
   		return state.properties[currentProperty].selections;
   	}
