@@ -34,7 +34,7 @@ angular.module('civicPandaApp')
 
   	function logIn(userId) {
   		var index = userId || 0;
-  		State.overwriteState(index);
+  		State.overwriteState(users[index]);
   	}
 
     return {

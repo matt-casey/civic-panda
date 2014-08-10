@@ -31,6 +31,7 @@ angular.module('civicPandaApp')
   	function overwriteState(newState) {
   		currentProperty = 0;
   		state = angular.copy(newState);
+  		$rootScope.$broadcast('stateChange');
   	}
 
   	// returns names and ids of all available properties
@@ -108,6 +109,10 @@ angular.module('civicPandaApp')
       }
     }
 
+    function getUsername() {
+    	return state.name;
+    }
+
     return {
     	overwriteState: overwriteState,
     	properties: getProperties,
@@ -116,6 +121,7 @@ angular.module('civicPandaApp')
     	setProperty: setProperty,
     	toggleSelection: toggleSelection,
     	makeSelection: makeSelection,
-      	getPermitsInfo : getPermitsInfo
+      	getPermitsInfo : getPermitsInfo,
+      	getUsername: getUsername
     }
   });
