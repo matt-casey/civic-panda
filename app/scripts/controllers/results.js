@@ -30,25 +30,25 @@ angular.module('civicPandaApp')
             "process": [
               {
                 "id": 1,
-                "name": "application",
+                "name": "Application",
                 "completed": false,
                 "pending": false
               },
               {
                 "id": 2,
-                "name": "work approval",
+                "name": "Work approval",
                 "completed": false,
                 "pending": false
               },
               {
                 "id": 3,
-                "name": "working progress",
+                "name": "In progress",
                 "completed": false,
                 "pending": false
               },
               {
                 "id": 4,
-                "name": "final approval",
+                "name": "Final approval",
                 "completed": false,
                 "pending": false
               }
@@ -57,6 +57,7 @@ angular.module('civicPandaApp')
         for(var x = 0; x < $scope.permits.length; x ++){
             var permit = $scope.permits[x];
             permit.process = emptyProcess;
+            permit.newPermit = true;
         }
     }
 	function updatePermitsWithProcesses(){
