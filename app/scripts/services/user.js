@@ -20,13 +20,13 @@ angular.module('civicPandaApp')
   	  		properties: [
   		  		{
   		  			id: 0,
-  		  			name: 'Impact Radiators',
+  		  			name: 'Phil’s Pizza',
   		  			saved: true,
   		  			selections: { types: [1], categories: [1], changes: [0], subtypes : [1], progresses: [], zones: [] }
   		  		},
             {
               id: 1,
-              name: 'Impact Coolers',
+              name: 'My house',
               saved: true,
               selections: { types: [3], categories: [1], changes: [1], subtypes : [], progresses: [], zones: [] }
             }
