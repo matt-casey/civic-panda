@@ -1,19 +1,27 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .service('Permits', function Permits($http) {
+  .service('Permits', function Permits($http, $q) {
 
   	var permits = [];
 
   	init();
-  	function init() {
-		$http.get('data/permits.json').success(function(response) {
-	  		permits = response;
+  	
+	function init() {
+    	var deferred = $q.defer();
+	    $http.get('data/permits.json')
+		    .success(function(response) {
+		      permits = response;
+		      deferred.resolve();
+		    })
+	    .error(function(){
+	    	deferred.reject();
 	    });
-	}
+	    return deferred.promise;
+    }
 
   	function getAll(){
-  		return data;
+  		return permits;
   	}
 
   	/*
