@@ -7,7 +7,8 @@ angular.module('civicPandaApp')
   		properties: [
 	  		{
 	  			id: 0,
-	  			name: '',
+	  			name: 'Your new project',
+	  			saved: false,
 	  			selections: { categories: [], types: [], subtypes: [], changes: [], progresses: [], zones: [] }
 	  		}
   		]
@@ -19,7 +20,8 @@ angular.module('civicPandaApp')
   	  		properties: [
   		  		{
   		  			id: 0,
-  		  			name: '',
+  		  			name: 'Impact Radiators',
+  		  			saved: true,
   		  			selections: { categories: [], types: [], subtypes: [], changes: [], progresses: [], zones: [] }
   		  		}
   	  		]

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('civicPandaApp')
-  .service('State', function State(Permits) {
+  .service('State', function State($rootScope, Permits) {
 
   	var currentProperty = 0;
   	var state = {
@@ -9,7 +9,8 @@ angular.module('civicPandaApp')
   		properties: [
 	  		{
 	  			id: 0,
-	  			name: '',
+	  			name: 'Your new project',
+	  			saved: false,
 	  			selections: {
 			  		categories: [],
 			    	types:      [],
@@ -49,12 +50,19 @@ angular.module('civicPandaApp')
   		return state.properties[currentProperty].selections;
   	}
 
+  	// gets the current property
+  	function getProperty() {
+  		console.log(state.properties[currentProperty]);
+  		return state.properties[currentProperty];
+  	}
+
   	function setProperty(index) {
   		index < state.properties.length ? currentProperty = index : currentProperty = 0;
   	}
 
   	function makeSelection(type, index) {
   		state.properties[currentProperty]['selections'][type] = [index];
+  		calculePermitsInfo();
   	}
 
   	function toggleSelection(type, index) {
@@ -65,14 +73,14 @@ angular.module('civicPandaApp')
   		else{
   			state.properties[currentProperty]['selections'][type].splice(location, 1);
   		}
-
-      calculePermitsInfo()
+      	calculePermitsInfo();
   	}
 
     function calculePermitsInfo(){
       var permits = Permits.getFiltered(getSelection());
       sumPermitsDuration(permits);
       sumPermitsCost(permits);
+      $rootScope.$broadcast('summationUpdated');
     }
 
     function sumPermitsCost(permits){
@@ -104,10 +112,11 @@ angular.module('civicPandaApp')
     return {
     	overwriteState: overwriteState,
     	properties: getProperties,
+    	property: getProperty,
     	selection: getSelection,
     	setProperty: setProperty,
     	toggleSelection: toggleSelection,
     	makeSelection: makeSelection,
-      getPermitsInfo : getPermitsInfo
+      	getPermitsInfo : getPermitsInfo
     }
   });

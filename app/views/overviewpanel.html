@@ -1,1 +1,10 @@
+<div class="col-xs-24">{{project.name}}</div>
+<div class="col-xs-24" ng-show="!project.saved">
+	<button>Save Project</button>
+</div>
 
+<div class="col-xs-24">Max Total Cost</div>
+<div class="col-xs-24">${{projectDetails.cost | number:0}}</div>
+
+<div class="col-xs-24">Estimated Completion</div>
+<div class="col-xs-24">{{projectDetails.minDuration | daysOut}} - {{projectDetails.maxDuration | daysOut}}</div>
