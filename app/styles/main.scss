@@ -10,6 +10,10 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     box-sizing: border-box;
 }
 
+[ng-click]{
+	cursor: pointer;
+}
+
 .full-page{
 	position: absolute;
 	height: 100%;
@@ -29,3 +33,4 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 }
 
 @import "buttons.scss";
+@import "inputscreen.scss";

@@ -1,1 +1,16 @@
-<p>This is the input view.</p>
+<div class="row">
+	<div class="col-xs-24" ng-class="{'collapsed': currentStep > step.id}" ng-hide="currentStep < step.id" ng-repeat="step in steps">
+		<!-- number -->
+		<h1 ng-click="setStep(step.id)">{{step.display}}</h1>
+
+		<!-- shown on collapsed -->
+		<h3 class="collapsed-on">{{step.output}}</h3>
+
+		<!-- hidden on collapsed -->
+		<h3 class="collapsed-off">{{step.name}}</h3>
+		<ng-include class="collapsed-off" src="step.form"></ng-include>
+
+		<!-- continue button -->
+		<button ng-click="nextStep()" ng-show="step.continue()">continue</button>
+	</div>
+</div>
