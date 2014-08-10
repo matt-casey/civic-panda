@@ -9,11 +9,15 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+      .when('/user-input', {
+        templateUrl: 'views/input.html',
+        controller: 'InputCtrl'
+      })
+      .when('/results', {
+        templateUrl: 'views/results.html',
+        controller: 'ResultsCtrl'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/user-input'
       });
   });

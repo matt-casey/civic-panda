@@ -10,4 +10,22 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
     box-sizing: border-box;
 }
 
+.full-page{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.overview-pannel{
+	position: relative;
+	height: 100%;
+	border: solid;
+}
+
+.main-content{
+	position: relative;
+	height: 100%;
+	border: solid;
+}
+
 @import "buttons.scss";
