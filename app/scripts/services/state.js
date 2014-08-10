@@ -52,7 +52,6 @@ angular.module('civicPandaApp')
 
   	// gets the current property
   	function getProperty() {
-  		console.log(state.properties[currentProperty]);
   		return state.properties[currentProperty];
   	}
 
