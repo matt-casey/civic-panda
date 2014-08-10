@@ -2,12 +2,21 @@
 
 angular.module('civicPandaApp')
   .controller('InputCtrl', function ($scope, $location, State) {
-  	// STEPS ARE 1-INDEXED, NOT 0
+  	$scope.selection = State.selection();
+
+  	var names = ['What are you making', 'Your business information', 'Where are you located'];
+  	var forms = ['views/input_one.html', 'views/input_two.html', 'views/input_three.html'];
+
   	$scope.steps = [
-  		{id: 0, display: '1', name: 'What are you making?',      continue: function() { return State.selection().categories.length }, output: "I'm making a ",  form: 'views/input_one.html'},
-  		{id: 1, display: '2', name: 'Your business information', continue: function() { return State.selection().types.length }, 	  output: "I'm opening a ", form: 'views/input_two.html'},
-  		{id: 2, display: '3', name: 'Where are you located?',    continue: function() { return State.selection().zones.length },      output: "",               form: 'views/input_three.html'}
+  		{id: 0, display: '1', name: names[0], type: 'categories', output: "I'm making a ",  form: forms[0] },
+  		{id: 1, display: '2', name: names[1], type: 'types', 	  output: "I'm opening a ", form: forms[1] },
+  		{id: 2, display: '3', name: names[2], type: 'zones',      output: "",               form: forms[2] }
   	];
+
+  	function allowNext(type) {
+  		return State.selection()[type].length > 0;
+  	}
+
   	$scope.currentStep = 0;
 
   	$scope.setStep = function(ind) {
