@@ -1,0 +1,1084 @@
+{
+	"initial" : [
+	{
+		"id": 1,
+		"question" : "Do you have a business plan?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no.   Please see the information below. For more information on what a business plan is and how to create one, take a look at: City of Boston Small Business Resource Guide:  http://www.cityofboston.gov/Images_Documents/SBRG_Regulatory_Licensing_Requirements_Steps_2008_tcm3-8300.pdf . US Small Business Administration:  www.sba.gov . SCORE Boston:  http://www.scoreboston.org . Center for Women and Enterprise:  www.cweboston.org . State Office of Minority and Women Business Assistance:  www.somwba.state.ma.us . Kirstein Business Library: http://www.bpl.org/research/kbb/kbbhome.htm ."
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. For more information on what a business plan is and how to create one, take a look at: City of Boston Small Business Resource Guide:  http://www.cityofboston.gov/Images_Documents/SBRG_Regulatory_Licensing_Requirements_Steps_2008_tcm3-8300.pdf . US Small Business Administration: www.sba.gov . SCORE Boston: http://www.scoreboston.org . Center for Women and Enterprise: www.cweboston.org . State Office of Minority and Women Business Assistance: www.somwba.state.ma.us . Kirstein Business Library:   http://www.bpl.org/research/kbb/kbbhome.htm ."
+			}
+		]
+	},
+	{
+		"id": 2,
+		"question" : "Do you have a location?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no , please see below for some resources to help you in your location search: The Boston Business Hub has some resources that can help you find a location:  http://businesshub.boston.gov/cms/siteselection . For information on City-owned property, see:  http://www.cityofboston.gov/dnd/rems/DND_property_inventory.asp . The Mayor_x0019_s Office of Neighborhood Services can answer questions about particular neighborhoods and connect businesses with local neighborhood groups:  http://www.cityofboston.gov/ons/coor_list.asp ."
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know , please see below for some resources to help you in your location search: The Boston Business Hub has some resources that can help you find a location:  http://businesshub.boston.gov/cms/siteselection . For information on City-owned property, see: http://www.cityofboston.gov/dnd/rems/DND_property_inventory.asp . The Mayor_x0019_s Office of Neighborhood Services can answer questions about particular neighborhoods and connect businesses with local neighborhood groups: http://www.cityofboston.gov/ons/coor_list.asp . "
+			}
+		]
+	},
+	{
+		"id": 3,
+		"question" : "Have you registered your business?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .   Please see the information below. Any business operating in the City of Boston  must file a Business Certificate form, also known as a Doing Business As (DBA) form, with the Office of the City Clerk - unless the business is registered as a Corporation in the State of  Massachusetts.    To register your business with the City of Boston, you must submit a notarized Business Certificate form to the Office of the City Clerk. The form must be signed by each of the business owners and each signature must be notarized individually. You can download the form here:   http://www.cityofboston.gov/cityclerk/BusinessRegistration/ For further information, please call the City Clerk's office at 617-635-4600. You may also need to register with State and Federal Governments.  For additional information, visit  www.mass.gov  and enter _x001C_Business Obligations_x001D_ in the search box."
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. Any business operating in the City of Boston  must file a Business Certificate form, also known as a Doing Business As (DBA) form, with the Office of the City Clerk - unless the business is registered as a Corporation in the State of  Massachusetts.    To register your business with the City of Boston, you must submit a notarized Business Certificate form to the Office of the City Clerk. The form must be signed by each of the business owners and each signature must be notarized individually. You can download the form here:   http://www.cityofboston.gov/cityclerk/BusinessRegistration/ For further information, please call the City Clerk's office at 617-635-4600. You may also need to register with State and Federal Governments.  For additional information, visit www.mass.gov and enter _x001C_Business Obligations_x001D_ in the search box.  "
+			}
+		]
+	},
+	{
+		"id": 4,
+		"question" : "Do you have a Federal Tax Id #?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .   Please see the information below. An Employer Identification Number (EIN) is also known as a Federal Tax Identification Number, and is used to identify a business entity. This number is used for both federal and state tax purposes. Businesses that must obtain an EIN number include: sole proprietorships with one or more employees (not including yourself), and partnerships and corporations with or without employees. Sole proprietorships without employees (other than the owner) that are required to file excise, alcohol, tobacco, firearms, or employment tax returns must also obtain a federal employer identification number. A married couple running a business together (with or without employees) is considered a partnership, not a sole proprietorship, and must obtain an EIN. Exception: If your business is a sole proprietorship without employees (other than the owner) and is not required to file excise, alcohol, tobacco, or firearm tax returns, you do not need to obtain a federal Employer Identification Number (EIN). Your social security number can be utilized for business tax purposes. To obtain a federal identification number, you must file Form SS-4, Application for Employer Identification Number, with the Internal Revenue Service. You can apply online at  www.irs.gov/businesses/small/ , or over the phone by calling 800-829-4933."
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. An Employer Identification Number (EIN) is also known as a Federal Tax Identification Number, and is used to identify a business entity. This number is used for both federal and state tax purposes. Businesses that must obtain an EIN number include: sole proprietorships with one or more employees (not including yourself), and partnerships and corporations with or without employees. Sole proprietorships without employees (other than the owner) that are required to file excise, alcohol, tobacco, firearms, or employment tax returns must also obtain a federal employer identification number. A married couple running a business together (with or without employees) is considered a partnership, not a sole proprietorship, and must obtain an EIN.   Exception: If your business is a sole proprietorship without employees (other than the owner) and is not required to file excise, alcohol, tobacco, or firearm tax returns, you do not need to obtain a federal Employer Identification Number (EIN). Your social security number can be utilized for business tax purposes.   To obtain a federal identification number, you must file Form SS-4, Application for Employer Identification Number, with the Internal Revenue Service. You can apply online at  www.irs.gov/businesses/small/ , or over the phone by calling 800-829-4933."
+			}
+		]
+	},
+	{
+		"id": 5,
+		"question" : "Do you know what the zoning code does and does not allow you to do with your space?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .  Please see the information below. Zoning determines how property can be used.   It is very important to ensure, before starting the permitting process, that what you_x0019_re planning on doing is allowed on your property under current zoning.   You can do that by attending one of the Inspectional Services Department's weekly zoning clinics: http://www.cityofboston.gov/isd/building/boa/zoningclinic.asp If a project does not fit the requirements of the Zoning Code, the Board of Appeal may grant relief from strict interpretations of the Code. Relief is granted after a public hearing and a finding that the proposed project is in harmony with the legal zoning in the neighborhood.   To learn more about the appeals process, see: http://www.cityofboston.gov/isd/building/boa/pdfs/Zoning_Booklet.pdf For more resources on zoning, visit: http://www.bostonredevelopmentauthority.org/zoning/zoning.asp http://www.cityofboston.gov/isd/building/boa/zoningclinic.asp http://gis.cityofboston.gov/zoning/"
+			}
+		]
+	}],
+	"General" : [
+	{
+		"id": 6,
+		"question" : "Do you have all the financing you need to complete your project?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .   Please see the information below. The Boston Business Hub has compiled many helpful resources:   http://businesshub.boston.gov/ResourceResults?busType=Funding&busName=Get%20Funding . Many of these programs will only act as a secondary funding source, so be sure to talk with your local banks first. "
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. The Boston Business Hub has compiled many helpful resources:   http://businesshub.boston.gov/ResourceResults?busType=Funding&busName=Get%20Funding. Many of these programs will only act as a secondary funding source, so be sure to talk with your local banks first."
+			}
+		]
+	},
+	{
+		"id": 7,
+		"question" : "Does the current Certificate of Occupancy list the use type for your business?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You may want to verify your understanding of the allowed use for your space by calling the Inspectional Services Department_x0019_s document room at 617-961-3370.   There may be additional allowances not specified in your current Certificate of Occupancy, or restrictions that you may not be aware of."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .  Please see the information below. A Certificate of Occupancy (CO) is required after new construction or major renovations, and for changes of occupancy.   Your building owner may already have a CO on file; if you are not doing any major renovations or changing the type of business in the space, this should be sufficient.   To find a current Certificate of Occupancy, you may ask the property owner for it, or go to   http://www.cityofboston.gov/isd/permitsearch and look up the address and retrieve the Long Form applications.   If you have trouble finding the current Certificate of Occupancy, you can call the Inspectional Services Department's (ISD) document room at 617-961-3370 for help. To apply for a new Certificate of Occupancy you will need to go to the ISD Building Department and fill out a Certificate of Occupancy Permit application  once all construction work is completed .   ISD is located at 1010 Massachusetts Avenue, and is open from 8am-4pm Monday through Friday, and until 7PM on Thursdays. For information on what documents you will need to submit along with the permit application, see: http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf (letter I). The Boston Fire Department (BFD) will also review your CO application, and has additional requirements separate from those for ISD.   Y ou can begin submitting documents to BFD as soon as you have a permit number from ISD, and should begin the process with BFD as early as possible, to ensure that your CO application is reviewed in a timely manner.  For a list of documents that may be required by BFD, see:  http://www.cityofboston.gov/Images_Documents/Certificate%20of%20Occupancy%20Testing%20and%20Acceptance%20Criteria_tcm3-15934.pdf . You can bring these to BFD's Fire Prevention Division, on the 4th floor of 1010 Massachusetts Avenue, along with your CO permit number from ISD.  For more information on the COO process, see:  http://www.cityofboston.gov/isd/building/boa/coo.asp . For more information on BFD's requirements, visit  http://www.cityofboston.gov/fire/prevention/coo_plans.asp , or call 617-343-3034."
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. You must have a Certificate of Occupancy (CO) before you may legally open for business.  It is therefore important to figure out early on if your business is covered under a current Certificate of Occupancy, or if you will need to apply for a new one. If you are opening a new business in a location that was previously used in the exact same way, you may not need to apply for a new CO.   If you are changing the use, or doing major renovations or construction, you will need a new CO.   To find a current Certificate of Occupancy, you may ask the property owner for it, or go to   http://www.cityofboston.gov/isd/permitsearch and look up the address and retrieve the Long Form applications.   If you have trouble finding the Certificate of Occupancy, you can call the Inspectional Services Department's document room at 617-961-3370 for help."
+			}
+		]
+	},
+	{
+		"id": 8,
+		"question" : "Will you have any of the following: furniture (other than metal furniture), curtains or drapes, ceiling tile, wall coverings, panel systems, floor coverings, or any other decorative materials?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. Anything in these categories must be individually approved by the Fire Department chemist.   Visit http://www.cityofboston.gov/fire/PGA.asp , and fill out all applicable permits under 'Chemist Guidelines and Applications'."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. If you decide to have any of these things, they will need to be certified by the Fire Department Chemist.   To see the requirements, go to  http://www.cityofboston.gov/fire/PGA.asp and look under the section 'Chemist Guidelines and Applications'."
+			}
+		]
+	},
+	{
+		"id": 9,
+		"question" : "Will you have any of the following: furniture (other than metal furniture), curtains or drapes, ceiling tile, wall coverings, panel systems, floor coverings, or any other decorative materials?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. If you have a dumpster on-site for at least 24 hours, it must be permitted.    For temporary use (less than a year) of a dumpster that is a) on-site for at least 24 hours at a time and b) 3 cubic yards or larger, you will need to: Apply for a Dumpster Placement Permit:  http://www.cityofboston.gov/Images_Documents/dumpsterplacement_tcm3-4011.pdf ; Contact the Public Works Department (PWD) for the placement of the dumpster:  http://www.cityofboston.gov/publicworks/ If the dumpster is going to occupy a public right-of-way, you will also need to get a street occupancy permit:  http://www.cityofboston.gov/transportation/streetoccupancy.asp For on-going use (a year or more) of a dumpster 3 cubic yards or larger, you will need to: Apply for an Annual Permit:  http://www.cityofboston.gov/Images_Documents/ANNUAL%20PERMIT%20APPLICATION_tcm3-17549.pdf    Apply for a Site Cleanliness License:  http://www.cityofboston.gov/isd/pdfs/ISD_Site_Cleanliness_application9.pdf"
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you have a dumpster on-site for at least 24 hours, it must be permitted.   For temporary use (less than a year) of a dumpster that is a) on-site for at least 24 hours at a time and b) 3 cubic yards or larger, you will need to: Apply for a Dumpster Placement Permit: http://www.cityofboston.gov/Images_Documents/dumpsterplacement_tcm3-4011.pdf ; Contact the Public Works Department (PWD) for the placement of the dumpster:  http://www.cityofboston.gov/publicworks/ If the dumpster is going to occupy a public right-of-way, you will also need to get a street occupancy permit:  http://www.cityofboston.gov/transportation/streetoccupancy.asp For on-going use (a year or more) of a dumpster 3 cubic yards or larger, you will need to:  Apply for an Annual Permit: http://www.cityofboston.gov/Images_Documents/ANNUAL%20PERMIT%20APPLICATION_tcm3-17549.pdf   Apply for a Site Cleanliness License: http://www.cityofboston.gov/isd/pdfs/ISD_Site_Cleanliness_application9.pdf"
+			}
+		]
+	},
+	{
+		"id": 10,
+		"question" : "Will you have any of the following: furniture (other than metal furniture), curtains or drapes, ceiling tile, wall coverings, panel systems, floor coverings, or any other decorative materials?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .   Please see the information below. Site Cleanliness Licenses are required for any commercial properties that contract with private companies for waste hauling, to ensure that trash disposal is handled in a responsible manner.    To apply for a Site Cleanliness License, fill out this form:   http://www.cityofboston.gov/isd/pdfs/ISD_Site_Cleanliness_application9.pdf"
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. Site Cleanliness Licenses are required for any commercial properties that contract with private companies for waste hauling, to ensure that trash disposal is handled in a responsible manner.  To apply for a Site Cleanliness License, fill out this form: http://www.cityofboston.gov/isd/pdfs/ISD_Site_Cleanliness_application9.pdf ."
+			}
+		]
+	},
+	{
+		"id": 11,
+		"question" : "Are you in a historic district or landmark building?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .   Please see the information below. Being in a Historic District or Landmark Building can have an impact on your construction permitting process. To verify that your business is in a historic district or a landmark building, please consult this map:  http://www.cityofboston.gov/environment/pdfs/historic_districts_and_landmarks_map.pdf . For more information on your obligations in a Historic District, visit:     http://www.cityofboston.gov/landmarks/historic/  (note the links along the left side of the page to each district's page).   For more information on your obligations in an individual Landmark Building, visit:   http://www.cityofboston.gov/landmarks/process.asp , For more information, contact the Boston Landmarks Commission at 617-635-3850 / BLC@cityofboston.gov, or visit  http://www.cityofboston.gov/landmarks/process.asp ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. Being in a Historic District or Landmark Building can have an impact on your construction permitting process. To check if your business is in a historic district or a landmark building, please consult this map:  http://www.cityofboston.gov/environment/pdfs/historic_districts_and_landmarks_map.pdf . For more information on your obligations in a Historic District, visit:     http://www.cityofboston.gov/landmarks/historic/  (note the links along the left side of the page to each district's page).   For more information on your obligations in an individual Landmark Building, visit:   http://www.cityofboston.gov/landmarks/process.asp , For more information, contact the Boston Landmarks Commission at 617-635-3850 / BLC@cityofboston.gov, or visit  http://www.cityofboston.gov/landmarks/process.asp ."
+			}
+		]
+	},
+	{
+		"id": 12,
+		"question" : "Is your location within 100 feet of a wetland?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .   Please see the information below. Any construction projects located that might affect a wetland must be reviewed by the Boston Conservation Commission.  To find out what your obligations are, contact the Conservation Commission at 617-635-3850 / CC@cityofboston.gov, or visit:  http://www.cityofboston.gov/environment/conservation ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. Any construction projects located that might affect a wetland must be reviewed by the Boston Conservation Commission.  To find out if your business is within 100 feet of a wetland, contact the Conservation Commission at 617-635-3850 / CC@cityofboston.gov. Fore more information, visit:  http://www.cityofboston.gov/environment/conservation ."
+			}
+		]
+	}
+	],
+	"Construction" : [
+	{
+		"id": 13,
+		"question" : "Will you be building a new structure?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered yes .  Please see the information below. If you are building a new structure, you will need the following  at minimum: An Erect Permit from the Inspectional Services Department (ISD).   You can apply for this permit in-person, at 1010 Massachusetts Avenue, 5th floor.   For information on other documents you will need to submit along with the permit applications, see: http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf (letters B and C). A Construction/ Demolition/ Renovation Permit from the Boston Fire Department (BFD): http://www.cityofboston.gov/Images_Documents/Construction%20Demolition%20Alteration%20Application_tcm3-4006.pdf You may also want to review these tips for hiring a contractor:  http://www.cityofboston.gov/isd/pdfs/contractors.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered I don't know .  Please see the information below. Any new structure that you decide to build will need to be permitted by the Inspectional Services Department (ISD) and the Boston Fire Department (BFD).  If you are building a new structure, you will need the following  at minimum: An Erect Permit from ISD.    You can apply for this permit in-person, at 1010 Massachusetts Avenue, 5th floor.    For information on other documents you will need to submit along with the permit applications, see:  http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf  (letters B and C). A Construction/ Demolition/ Renovation Permit from BFD:   http://www.cityofboston.gov/Images_Documents/Construction%20Demolition%20Alteration%20Application_tcm3-4006.pdf .   You may also want to review these tips for hiring a contractor:   http://www.cityofboston.gov/isd/pdfs/contractors.pdf ."
+			}
+		]
+	},
+	{
+		"id": 14,
+		"question" : "Will you be doing any major renovations (e.g. removing structural support beams, constructing a deck, building an addition, or changing an exit)?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered yes .  Please see the information below. To do this work, you will need: A Long Form permit from ISD.   You can apply through the following online permitting portal:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ . For information on other documents you will need to submit along with the permit application, see: http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf (letter B). A Construction/ Demolition/ Renovation permit from the Fire Department: http://www.cityofboston.gov/Images_Documents/Construction%20Demolition%20Alteration%20Application_tcm3-4006.pdf  You may also want to review these tips for hiring a contractor: http://www.cityofboston.gov/isd/pdfs/contractors.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered I don't know .  Please see the information below. Major renovations need to be permitted by the Inspectional Services Department (ISD) and the Boston Fire Department (BFD).   If you have questions about what kind of permits are required for your specific project, you can call ISD at 617-635-5900 and BFD at 617-343-3447."
+			}
+		]
+	},
+	{
+		"id": 15,
+		"question" : "Will you be doing any minor interior or exterior renovations (such as putting in new flooring, removin non-weight bearing walls, installing or removing countertops, exterior painting or siding, replacing stoves, etc.)?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered yes .  Please see the information below. To do this work, you will need: A Short Form permit from Inspectional Services Department (ISD).   You can apply through the following online permitting portal:   https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ . For information on other documents you will need to submit along with the permit application, see: http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf  (letter B). A Construction/ Demolition/ Renovation permit from the Boston Fire Department (BFD):  http://www.cityofboston.gov/Images_Documents/Construction%20Demolition%20Alteration%20Application_tcm3-4006.pdf You may also want to review these tips for hiring a contractor:  http://www.cityofboston.gov/isd/pdfs/contractors.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered I don't know .  Please see the information below. Renovations of this kind need to be permitted by the Inspectional Services Department (ISD) and the Boston Fire Department (BFD).   If you have questions about what kind of permits are required for your specific project, you can call ISD at 617-635-5900 and BFD at 617-343-3447."
+			}
+		]
+	},
+	{
+		"id": 16,
+		"question" : "Will you be installing or changing sprinklers?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered yes .  Please see the information below. All work must be done by a licensed, professional contractor.   Your contractor will need to apply for the following: A Long Form Permit from Inspectional Services Department (ISD) if you are putting in a new system, adding new heads, and/or moving more than 10 heads.   A Sprinkler Install Permit from ISD.  Your contractor can apply for both this permit and the Long Form (above) through the following online permitting portal: https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ . A fire extinguishing system permit from the Boston Fire Department (BFD):   http://www.cityofboston.gov/Images_Documents/sprinkler%20permit_tcm3-4050.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered I don't know .  Please see the information below. Any work involving fire protection systems will need to be performed by a licensed professional contractor.   If you are not sure if your planned work qualifies, you should contact your contractor."
+			}
+		]
+	},
+	{
+		"id": 17,
+		"question" : "Will you be installing or changing hard-wired smoke alarms?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered yes .  Please see the information below. All work must be done by a licensed, professional contractor.   Your contractor will need to apply for the following: A Long Form Permit from the Inspectional Services Department (ISD) if it is a new system. A Short Form Permit from ISD for panel replacement if you are swapping out compatible devices. An Electrical Fire Alarm Permit from ISD.  Your contractor can apply for this permit and the Long or Short Form thorough the online permitting portal:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ . A fire alarm install permit from the Boston Fire Department (BFD):  http://www.cityofboston.gov/Images_Documents/Fire%20Alarm%20Installation%20Permit_tcm3-4014.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered I don't know .  Please see the information below. Any work involving fire protection systems will need to be performed by a licensed professional contractor.   If you are not sure if your planned work qualifies, you should contact your contractor."
+			}
+		]
+	},
+	{
+		"id": 18,
+		"question" : "Will you be installing or changing fire protection systems other than sprinklers or hard-wired smoke alarms?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered yes .  Please see the information below. All work must be done by a licensed, professional contractor.   Your contractor will need to apply for the following: A Long Form Permit from the Inspectional Services Department (ISD).  Your contractor can apply for this permit through the following online portal:   https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ . A fire extinguishing system permit from the Boston Fire Department (BFD):   http://www.cityofboston.gov/Images_Documents/sprinkler%20permit_tcm3-4050.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [22, 23, 24, 25, 26, 27, 28],
+				"text" : "You've answered I don't know .  Please see the information below. Any work involving fire protection systems will need to be performed by a licensed professional contractor.   If you are not sure if your planned work qualifies, you should contact your contractor."
+			}
+		]
+	},
+	{
+		"id": 19,
+		"question" : "Will you be putting up a sign or canopy?",
+		"answers": [
+			{
+				"answer" : "Yes, in a Main Streets District",
+				"triggers" : [],
+				"text" : "You've answered Yes, in a Main Streets District .  Please see the information below. If your building is in a Main Streets District, your sign should be reviewed by the local Main Streets organization.   For more information, contact Boston Main Streets at 617-635-0076.   After any necessary design review is completed, you will need to apply for a permit from the Inspectional Services Department to put up your sign.    You will need to apply for a Long Form Permit if it_x0019_s a new sign, or a Short Form Permit if you_x0019_re replacing an existing sign.    You can apply for these on-line:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ .  For information on other documents you will need to submit along with the permit application, see:  http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf  (letter A or B). Additionally, if your canopy or sign projects out from the building into the public right-of-way (e.g. the sidewalk), you will need to get approval from the Public Works Department.    Call 617-635-4910 for more information."
+			},
+			{
+				"answer" : "Yes, in a Historic District",
+				"triggers" : [],
+				"text" : "You've answered Yes, in a Historic District .  Please see the information below. If your building is in a historic district, your sign must be reviewed by your local Historic District Commission.   For more information, contact the Boston Landmarks Commission at 617-635-3850 / BLC@cityofboston.gov.   After any necessary design review is completed, you will need to apply for a permit from the Inspectional Services Department to put up your sign.   You will need to apply for a Long Form Permit if it_x0019_s a new sign, or a Short Form Permit if you_x0019_re replacing an existing sign.   You can apply for these on-line: https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ .  For information on other documents you will need to submit along with the permit application, see: http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf (letter A or B). Additionally, if your canopy or sign projects out from the building into the public right-of-way (e.g. the sidewalk), you will need to get approval from the Public Works Department.   Call 617-635-4910 for more information."
+			},
+			{
+				"answer" : "Yes, in a special overlay zoning district",
+				"triggers" : [],
+				"text" : "You've answered Yes, in a special overlay zoning district .  Please see the information below. If your building is in a district with special overlay zoning, your sign must be reviewed by the Boston Redevelopment Authority.   For more information, call the Boston Redevelopment Authority's Zoning Department at 617-918-4386. After any necessary design review is completed, you will need to apply for a permit from the Inspectional Services Department to put up your sign.    You will need to apply for a Long Form Permit if it_x0019_s a new sign, or a Short Form Permit if you_x0019_re replacing an existing sign.    You can apply for these on-line:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ .  For information on other documents you will need to submit along with the permit application, see:  http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf  (letter A or B). Additionally, if your canopy or sign projects out from the building into the public right-of-way (e.g. the sidewalk), you will need to get approval from the Public Works Department.    Call 617-635-4910 for more information."
+			},
+			{
+				"answer" : "Yes, but not in a Main Streets, Historic, or Special Overlay Zoning District",
+				"triggers" : [],
+				"text" : "You've answered Yes, but not in a Main Streets District, Historic District, or special overlay zoning district .  Please see the information below. If your sign meets local zoning requirements, no design review is needed.   To determine what the zoning requirements are for signs on your property, call the Boston Redevelopment Authority's (BRA) Zoning Department at 617-918-4308. If your sign does not conform wtih zoning requirements, the design will have to be reviewed by the Boston Redevelopment Authority.   You will have to submit photos and plans (drawn to scale) that show: Existing conditions What you are proposing Material and colors to be used for the sign Context (signs of surrounding businesses, Google map images showing exact location, etc.) For more information, call the BRA's Design Reviewer at 617-918-4386. After any necessary design review is completed, you will need to apply for a permit from the Inspectional Services Department to put up your sign.    You will need to apply for a Long Form Permit if it_x0019_s a new sign, or a Short Form Permit if you_x0019_re replacing an existing sign.    You can apply for these on-line:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ .  For information on other documents you will need to submit along with the permit application, see:  http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf  (letter A or B). Additionally, if your canopy or sign projects out from the building into the public right-of-way (e.g. the sidewalk), you will need to get approval from the Public Works Department.    Call 617-635-4910 for more information."
+			},
+			{
+				"answer" : "Yes, but I don't know if it's in a Main Street, Historic, or Special Overlay Zoning District",
+				"triggers" : [],
+				"text" : "You've answered Yes, but I don't know if it's in a Main Streets District, Historic District or special overlay zoning district .  Please see the information below. The process for getting a sign approved depends on where your building is located. To find out if your building is in a Main Streets District, contact Boston Main Streets at 617-635-0076.   To find out if your building is in a Historic District, contact the Boston Landmarks Commission at 617-635-3850 / BLC@cityofboston.gov, or consult this map: http://www.cityofboston.gov/environment/pdfs/historic_districts_and_landmarks_map.pdf . To find out if your building is in a district with special overlay zoning, call the Boston Redevelopment Authority's Zoning Department at 617-918-4308. After any necessary design review is completed, you will need to apply for a permit from the Inspectional Services Department to put up your sign.    You will need to apply for a Long Form Permit if it_x0019_s a new sign, or a Short Form Permit if you_x0019_re replacing an existing sign.    You can apply for these on-line:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ .  For information on other documents you will need to submit along with the permit application, see:  http://www.cityofboston.gov/isd/building/boa/pdfs/isdwheredoistart.pdf  (letter A or B). Additionally, if your canopy or sign projects out from the building into the public right-of-way (e.g. the sidewalk), you will need to get approval from the Public Works Department.    Call 617-635-4910 for more information.."
+			},
+			{
+				"answer" : "No",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer" : "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you are thinking about putting up a new sign (or replacing an existing one), you may want to start planning for it sooner rather than later because the approvals process may take awhile.     When your plans are in place, you can go through this wizard again and answer 'yes; to this question to find out what you need to do."
+			}
+		]
+	},
+	{
+		"id": 22,
+		"question" : "Does your construction project involve cutting into any walls, ceilings, or pipes that contain asbestos?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. Your licensed professional contractor will need to apply for the following permits from the Boston Fire Department (BFD):  Asbestos Removal Permit:  http://www.cityofboston.gov/Images_Documents/Asbestos_tcm3-3973.pdf . Application for Erecting a Tent/Temporary Structure to secure the area where the asbestos will be removed: http://www.cityofboston.gov/Images_Documents/Erecting%20a%20Tent%20or%20Temp%20Structure%20Application_tcm3-4012.pdf .   Additionally, he or she should ensure that the company providing the tent has an up-to-date chemist certification for the temporary enclosure materials. All work must be done by a contractor licensed by the Commonwealth of Massachusetts.  For more information about the State's requirements regarding asbestos see:  http://www.mass.gov/dep/air/asbguid.htm ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. Any work involving cutting into asbestos should be performed by a licensed professional contractor who will need to obtain an Asbestos Removal Permit from the Boston Fire Department (BFD).    If you are not sure if your planned work qualifies, you should contact your contractor. For more information about the State's requirements regarding asbestos, see:   http://www.mass.gov/dep/air/asbguid.htm ."
+			}
+		]
+	},
+	{
+		"id": 23,
+		"question" : "Will your construction work generate sufficient smoke or dust to potentially set off a fire alarm?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to obtain a permit for Bagging Smoke Detectors from the Boston Fire Department: http://www.cityofboston.gov/Images_Documents/Bag%20Smoke%20Detectors_tcm3-3975.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. Any work that would generate enough smoke or dust to set off the fire alarm needs to be performed by a licensed professional contractor.   If you are not sure if your planned work qualifies, you should contact your contractor."
+			}
+		]
+	},
+	{
+		"id": 24,
+		"question" : "Does your construction project involve the use of a torch or welder?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to obtain a Cutting / Burning / Welding Permit from the Boston Fire Department: http://www.cityofboston.gov/Images_Documents/Cutting%20Burning%20Welding%20Application%20and%20Instructions_tcm3-4007.pdf"
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If this kind of work is required, you will need to apply for a Cutting / Burning / Welding Permit from the Boston Fire Department: http://www.cityofboston.gov/Images_Documents/Cutting%20Burning%20Welding%20Application%20and%20Instructions_tcm3-4007.pdf"
+			}
+		]
+	},
+	{
+		"id": 25,
+		"question" : "Will you be using a generator or storing or using any potentially hazardous materials such as propane or diesel?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to apply for a General Permit from the Boston Fire Department: http://www.cityofboston.gov/Images_Documents/General%20Permit%20Application_tcm3-17545.pdf"
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If a generator or the storage of hazardous materials are required, you will need to apply for a General Permit from the Boston Fire Department: http://www.cityofboston.gov/Images_Documents/General%20Permit%20Application_tcm3-17545.pdf To find out what other materials qualify as hazardous, call 617-635-2191."
+			}
+		]
+	},
+	{
+		"id": 26,
+		"question" : "Will you be installing or altering any plumbing?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. Your licensed, professional contractor will have to apply for a Plumbing Permit through the following online permitting portal:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you do, your licensed, professional contractor will have to apply for a plumbing permit."
+			}
+		]
+	},
+	{
+		"id": 27,
+		"question" : "Will you be installing or altering any electrical systems?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. Your licensed, professional contractor will have to apply for an electrical permit through the following online permitting portal:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/ ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you do, your licensed, professional contractor will have to apply for an electrical permit."
+			}
+		]
+	},
+	{
+		"id": 28,
+		"question" : "Are you a food establishment?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. Because your business is a food establishment, your food service plan may need to be reviewed by the Inspectional Service Department's (ISD) Health Division before you make any changes to your kitchen or the layout of your restaurant.    To find out if your business needs to undergo this review, call 617-635-5326.  If so, complete the following form:  http://www.cityofboston.gov/isd/pdfs/fspr.pdf  and submit it to the Health Division.  Additionally, if you already have any licenses (such as   a Common Victualler license or live or non-live entertainment license), you must notify the licensing agency or agencies before closing your restaurant for an extended period of time.   You should write a letter explaining how long you are going to be closed, and detailing your renovations, and send it to the following: For a Common Victualler License or Alcoholic Beverages License: Boston Licensing Board  1 City Hall Square, Room 809 Boston, MA 02201-2035 For entertainment licenses: Department of Consumer Affairs & Licensing  1 City Hall Square, Room 817 Boston, MA 02201-2039   Depending on the extent of the work, you may be required to have a hearing before re-opening."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you are a food establishment, your food service plan may need to be reviewed by the Inspectional Service Department's (ISD) Health Division before you make any changes to your kitchen or the layout of your restaurant.   To find out if your business needs to undergo this review, call 617-635-5326.  If so, complete the following form:  http://www.cityofboston.gov/isd/pdfs/fspr.pdf  and submit it to the Health Division.  Additionally, if you already have any licenses (such as   a Common Victualler license or live or non-live entertainment license), you must notify the licensing agency or agencies before closing your restaurant for an extended period of time.   You should write a letter explaining how long you are going to be closed, and detailing your renovations, and send it to the following: For a Common Victualler License or Alcoholic Beverages License: Boston Licensing Board  1 City Hall Square, Room 809 Boston, MA 02201-2035 For entertainment licenses: Department of Consumer Affairs & Licensing  1 City Hall Square, Room 817 Boston, MA 02201-2039 Depending on the extent of the work, you may be required to have a hearing before re-opening."
+			}
+		]
+	}
+	],
+	"BusinessDefinition" : [
+	{
+		"id": 20,
+		"question" : "Please select your business type",
+		"answers": [
+			{
+				"answer" : "Retail",
+				"triggers" : [29, 30, 31],
+				"text" : ""
+			},
+			{
+				"answer" : "Restaurant",
+				"triggers" : [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42],
+				"text" : "For a detailed overview of the permitting process for restaurants, take a look at the Restaurant Roadmap: http://www.cityofboston.gov/business/restaurants/ All restaurants need to have a Common Victualler License ( http://www.cityofboston.gov/licensing/commonvictualler.asp ) and a food service permit ( http://www.cityofboston.gov/isd/pdfs/fsapp.pdf ). After submitting your food service permit, you will need to contact Inspectional Service Department's (ISD) Health Division for a food service plan review.   You can see guidelines for the review here: http://www.cityofboston.gov/isd/pdfs/fspr.pdf At least one full-time person on your staff must be certified as a food protection manager.   See the guidelines here: http://www.cityofboston.gov/isd/health/fmcert.asp . Certification classes are not licensed by the City; however, the Health Division maintains a current listing of trainers and scheduled trainings.   Call the Health Division at 617-635-5326 for more information. The Food Protection Manager must also attend a Food Allergen training.   For more information, see:  http://www.mass.gov/Eeohhs2/docs/dph/environmental/foodsafety/allergen_awareness_vendors.pdf ."
+			},
+			{
+				"answer" : "Salon",
+				"triggers" : [34, 43, 44, 45],
+				"text" : ""
+			},
+			{
+				"answer" : "Grocery",
+				"triggers" : [29, 31, 46, 47],
+				"text" : "All businesses selling food must have a food service permit ( http://www.cityofboston.gov/isd/pdfs/fsapp.pdf )."
+			},
+			{
+				"answer" : "Farmers' Market",
+				"triggers" : [],
+				"text" : "You will need to fill out a Farmers' Market application and submit it to the Inspectional Services Department's (ISD) Health Division:  http://www.cityofboston.gov/isd/pdfs/FarmersMarketApp.pdf . All food scales and scanners must be inspected by ISD s Weights & Measures Division.   You can request an inspection by calling 617-961-3248. For guidelines regarding food handling for famers' markets, see: http://www.cityofboston.gov/isd/pdfs/fmguide.pdf"
+			},
+			{
+				"answer" : "Mobile Food Establishment (food truck)",
+				"triggers" : [],
+				"text" : "The Public Works Department issues a unified Food Truck Permit: http://www.cityofboston.gov/Images_Documents/Food%20Truck%20Permit%20Application_cc_6-2-11_tcm3-25641.pdf. In order to obtain this permit, you must show that you have the following: A Food Service Permit http://www.cityofboston.gov/isd/pdfs/fsapp.pdf and Mobile Service Plan Review: http://www.cityofboston.gov/isd/pdfs/mfspr.pdf A Hawkers and Peddlers License issed by the state: http://www.mass.gov/Eoca/docs/dos/hp-renewal-form-2002.pdf. A GPS device, puchased through the City's contract. There may be additional requirements depending on the location. For more information, see http://www.cityofboston.gov/business/mobile/application.asp."
+			},
+			{
+				"answer" : "Other Food-related business",
+				"triggers" : [],
+				"text" : "All businesses selling food must have a food service permit ( http://www.cityofboston.gov/isd/pdfs/fsapp.pdf ).   To find out what other kinds of permits you may need, talk to someone in the Inspectional Services Department's (ISD) Health Division: 617-635-5326."
+			},
+			{
+				"answer" : "Other Business Type",
+				"triggers" : [21],
+				"text" : ""
+			}
+		]
+	},
+	{
+		"id": 21,
+		"question" : "What type of business are you?",
+		"answers": [
+			{
+				"answer" : "Clean Tech/Green Tech",
+				"triggers" : [],
+				"text" : "The BRA's Green Tech program has resources that may be of use to you.  See http://businesshub.boston.gov/cms/greentech for more information"
+			},
+			{
+				"answer" : "Commercial/Industrial",
+				"triggers" : [],
+				"text" : "The BRA's Green Tech program has resources that may be of use to you.  See http://businesshub.boston.gov/cms/greentech for more information"
+			},
+			{
+				"answer" : "Creative Economy",
+				"triggers" : [],
+				"text" : "The BRA's Back Streets program has resources that may be of use to you.  See http://businesshub.boston.gov/cms/backstreets for more information."
+			},
+			{
+				"answer" : "Financial Services",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer" : "Life Sciences",
+				"triggers" : [],
+				"text" : "The BRA's LifeTech program has resources that may be of use to you.  See http://businesshub.boston.gov/cms/lifetech for more information."
+			},
+			{
+				"answer" : "Technology",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer" : "Non Profit",
+				"triggers" : [],
+				"text" : "The Partners with Non-Profits program has resources that may be of use to you.  See http://businesshub.boston.gov/cms/partners for more information"
+			},
+			{
+				"answer" : "None of these, either",
+				"triggers" : [],
+				"text" : ""
+			}
+		]
+	}
+	],
+	"BusinessType" : [
+	{
+		"id": 29,
+		"question" : "Do you plan on setting up tables or other displays of your merchandise on the sidewalk outside your business?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered Yes .  Please see the information below. If the sidewalk is a public sidewalk, you will need to get approval from the Department of Public Works: http://www.cityofboston.gov/Images_Documents/VENDAPPL_tcm3-19128.pdf If it s a private sidewalk, you should first ensure that the zoning for your building allows you to put things on the sidewalk. For resources on zoning, check out http://www.bostonredevelopmentauthority.org/zoning/zoning.asp and http://www.cityofboston.gov/isd/building/boa/zoningclinic.asp .    If the zoning allows it, then you will have to apply for a   Use of Premises Permit ( http://www.cityofboston.gov/isd/building/bldgpermits.asp ), and submit a plot plan by a registered land surveyor."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. If you decide to use the sidewalk in front of your business, you will need to ensure you are in compliance with local zoning requirements, and then obtain a permit from the Inspectional Services Department (if the sidewalk is privately owned) or Public Works (if the sidewalk is publicly owned)."
+			}
+		]
+	},
+	{
+		"id": 30,
+		"question" : "Will you be selling food?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. All businesses selling food must have a food service permit ( http://www.cityofboston.gov/isd/pdfs/fsapp.pdf )."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. All businesses selling food must have a food service permit ( http://www.cityofboston.gov/isd/pdfs/fsapp.pdf )."
+			}
+		]
+	},
+	{
+		"id": 31,
+		"question" : "Will you be selling any tobacco products?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. In order to sell tobacco products you must first obtain a City of Boston Permit for Location and Sales of Tobacco Products. To apply for this permit, you must submit the following items to the Boston Tobacco Control Program: Completed Permit Application:  http://www.bphc.org/programs/cib/healthyhomescommunitysupports/tobaccocontrol/tobaccoregs/Forms%20%20Documents/tobacco_permit-application.pdf Signed Retail Establishment Owner/Operator Statement:  http://www.bphc.org/programs/cib/healthyhomescommunitysupports/tobaccocontrol/tobaccoregs/Forms%20%20Documents/tobacco_permit-ownerstatement.pdf A copy of your Massachusetts Department of Revenue Retailers License for Sale of Cigarettes (Form CT-3A), and a check or money order in the amount of $100. Bring your application and supporting documents to the Tobacco Control and Prevention Program at    the Boston Public Health Commission - 1010 Massachusetts Avenue.    If you need further assistance, please call the Boston Public Health Commission Tobacco Control and Prevention Program at 617-534-4718 ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you intend to sell tobacco products you must first obtain a City of Boston Permit for Location and Sales of Tobacco Products. To apply for this permit, you must submit the following items to the Boston Tobacco Control Program: Completed Permit Application:  http://www.bphc.org/programs/cib/healthyhomescommunitysupports/tobaccocontrol/tobaccoregs/Forms%20%20Documents/tobacco_permit-application.pdf Signed Retail Establishment Owner/Operator Statement:  http://www.bphc.org/programs/cib/healthyhomescommunitysupports/tobaccocontrol/tobaccoregs/Forms%20%20Documents/tobacco_permit-ownerstatement.pdf A copy of your Massachusetts Department of Revenue Retailers License for Sale of Cigarettes (Form CT-3A), and a check or money order in the amount of $100. Bring your application and supporting documents to the Tobacco Control and Prevention Program at   the Boston Public Health Commission - 1010 Massachusetts Avenue.   If you need further assistance, please call the Boston Public Health Commission Tobacco Control and Prevention Program at 617-534-4718 ."
+			}
+		]
+	},
+	{
+		"id": 32,
+		"question" : "Is the expected customer capacity of your establishment over 49 people?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. All bars or restaurants seating more than 49 persons need a Place of Assembly permit.  A new permit is also required any time there is a change of ownership or name.  To apply, fill out the top portion of this document, and bring it to the Boston Fire Department (BFD) at the address listed: http://www.cityofboston.gov/Images_Documents/Place%20of%20Assembly%20Inspection%20Report_tcm3-3974.pdf . Along with the permit application, you will have to submit three sets of Stamped and Signed Architect Plans to Scale that include these items:  http://www.cityofboston.gov/Images_Documents/Place%20of%20Assembly%20Requirement%20Check%20List_tcm3-17854.pdf .   Please note that Flame Certificates (#9 in the second section of the above document) will be required for any furniture (other than metal furniture), curtains or drapes, ceiling tile, wall coverings, panel systems, floor coverings, or any other decorative materials in your restaurant .  Due to the high volume of applications for Flame Certificates, you should apply for these as early as possible.  Guidelines and applications can be found at http://www.cityofboston.gov/fire/PGA.asp under the Chemist Guidelines and Applications section. For more information on the Place of Assembly permitting and inspection process, see: http://www.cityofboston.gov/fire/inspections/assembly.asp  "
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. Having capacity for more than 49 persons means you have to obtain a Place of Assembly Permit from the Boston Fire Department (BFD).   To learn more about the Place of Assembly permitting process, see the Place of Assembly Checklist:   http://www.cityofboston.gov/Images_Documents/Place%20of%20Assembly%20Requirement%20Check%20List_tcm3-17854.pdf or call the BFD at 617-343-2191. Place of Assembly Guidelines:   http://www.cityofboston.gov/Images_Documents/Boston%20Fire%20Prevention%20Place%20of%20Assembly%20May%202010%20%282%29_tcm3-17853.pdf"
+			}
+		]
+	},
+	{
+		"id": 33,
+		"question" : "Do you have a Certificate of Inspection?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .  Please see the information below. Every business with an assembly use (such as theatres, night clubs, and restaurants) must have a Certificate of Inspection (CI), and must be inspected annually.   A CI is typically issued along with the Certificate of Occupancy, but if your Certificate of Occupancy was not recently issued, you can apply for a new CI.   To do this, you will need to go to the Inspectional Services Department (ISD) Building Division and fill out a Certificate of Inspection Permit application.   ISD is located at 1010 Massachusetts Avenue, and is open from 8am-4pm Monday through Friday, and until 7PM on Thursdays. You will need to provide a Floor plan and a copy of the Certificate of Occupancy along with your CI application."
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. Every business with an assembly use (such as theatres, night clubs, and restaurants) must have a Certificate of Inspection (CI), and must be inspected annually.    A CI is typically issued along with the Certificate of Occupancy, but if your Certificate of Occupancy was not recently issued, you can apply for a new CI.    To do this, you will need to go to the Inspectional Services Department (ISD) Building Division and fill out a Certificate of Inspection Permit application.    ISD is located at 1010 Massachusetts Avenue, and is open from 8am-4pm Monday through Friday, and until 7PM on Thursdays.  You will need to provide a Floor plan and a copy of the Certificate of Occupancy along with your CI application."
+			}
+		]
+	},
+	{
+		"id": 34,
+		"question" : "Will you be serving alcohol?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You may not serve any alcohol without a license from the Boston Licensing Board.    The number of licenses available is limited by the State Legislature.    For information on how to obtain a license, contact the Licensing Board: 617-635-4170 / LicensingBoard@cityofboston.gov."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. You may not serve any alcohol without a license from the Boston Licensing Board.   The number of licenses available is limited by the State Legislature.   For information on how to obtain a license, contact the Licensing Board: 617-635-4170 / LicensingBoard@cityofboston.gov."
+			}
+		]
+	},
+	{
+		"id": 35,
+		"question" : "Will you be offering take-out?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. Before you can offer take-out, you will need to ensure that it is allowed under your building s zoning.   To do that, you can visit one of the Inspectional Services Division (ISD) zoning clinics: http://www.cityofboston.gov/isd/building/boa/zoningclinic.asp If take-out is forbidden or restricted under the zoning in your area, you may file an appeal. To learn more about the appeals process, see: http://www.cityofboston.gov/isd/building/boa/pdfs/Zoning_Booklet.pdf . If there was another business in your space before yours that offered take-out, they may have gotten a zoning variance that s transferable to your business.   You can check that with ISD, by calling 617-635-3370 If you are adding take-out to a restaurant that s already open for business, you will have to get approval from the Boston Licensing Board once you have your updated Certificate of Occupancy.   For more information, call the Licensing Board: 617-635-4170."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you are thinking about offering take-out, you may want to start planning for it sooner rather than later because the approvals process may take awhile. Before you can offer take-out, you will need to ensure that it is allowed under your building s zoning.    To do that, you can visit one of the Inspectional Services Division (ISD) zoning clinics:   http://www.cityofboston.gov/isd/building/boa/zoningclinic.asp If take-out is forbidden or restricted under the zoning in your area, you may file an appeal. To learn more about the appeals process, see:  http://www.cityofboston.gov/isd/building/boa/pdfs/Zoning_Booklet.pdf .  If there was another business in your space before yours that offered take-out, they may have gotten a zoning variance that s transferable to your business.    You can check that with ISD, by calling 617-635-3370. If you are adding take-out to a restaurant that s already open for business, you will have to get approval from the Boston Licensing Board once you have your updated Certificate of Occupancy.    For more information, call the Licensing Board: 617-635-4170."
+			}
+		]
+	},
+	{
+		"id": 36,
+		"question" : "Will you have any live entertainment such as live music performances, disc jockeys, or dancing by patrons?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to obtain a Live Entertainment License.   To apply, fill out this form and bring it, in person (with all the required attachments), to Room 817 in City Hall: http://www.cityofboston.gov/Images_Documents/live%5B1%5D_tcm3-10001.pdf . You will have to have a public hearing before this license can be issued. For more information, call the Mayor s Office of Consumer Affairs and Licensing at 617-635-3834."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. If you decide to have live entertainment in your business, you will need to obtain a live entertainment license.   For more information, call the Mayor s Office of Consumer Affairs and Licensing at 617-635-3834."
+			}
+		]
+	},
+	{
+		"id": 37,
+		"question" : "Will you have any non-live entertainment such as radios, jukebokes, televisions, or dartboards?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to obtain a Non-Live Entertainment License.   To apply, fill out this form and bring it, in person (with all the required attachments), to Room 817 in City Hall: http://www.cityofboston.gov/Images_Documents/nonlive%5B1%5D_tcm3-9997.pdf . For more information, call the Mayor s Office of Consumer Affairs and Licensing at 617-635-3834.  "
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. If you decide to have non-live entertainment in your business, you will need to obtain a live entertainment license. For more information, call the Mayor s Office of Consumer Affairs and Licensing at 617-635-3834."
+			}
+		]
+	},
+	{
+		"id": 37,
+		"question" : "Will you have any non-live entertainment such as radios, jukebokes, televisions, or dartboards?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to obtain a Non-Live Entertainment License.   To apply, fill out this form and bring it, in person (with all the required attachments), to Room 817 in City Hall: http://www.cityofboston.gov/Images_Documents/nonlive%5B1%5D_tcm3-9997.pdf . For more information, call the Mayor s Office of Consumer Affairs and Licensing at 617-635-3834.  "
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. If you decide to have non-live entertainment in your business, you will need to obtain a live entertainment license. For more information, call the Mayor s Office of Consumer Affairs and Licensing at 617-635-3834."
+			}
+		]
+	},
+	{
+		"id": 38,
+		"question" : "Will you have a pool table?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to fill out this form and bring it, in person, to the Boston Licensing Board (City Hall, Room 809): http://www.cityofboston.gov/Images_Documents/Pool%20Table%20License_fillable_tcm3-18715.pdf .   The Licensing Board will hold a hearing before deciding whether or not to issue you a permit for your pool table(s).   Details as to what information you will need to submit to the Board is included in the application linked above. For more information, call the Boston Licensing Board at 617-635-4170."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. Having a pool table requires a license from the Boston Licensing Board.   For instructions on how to apply for a pool table License, see: http://www.cityofboston.gov/Images_Documents/Pool%20Table%20License_fillable_tcm3-18715.pdf"
+			}
+		]
+	},
+	{
+		"id": 39,
+		"question" : "Will you have a pool table?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. If the seating is on private land, you will need to obtain a Use of Premises permit from the Inspectional Services Department (ISD) through the following online permitting portal:  https://onlinepermitsandlicenses.cityofboston.gov/isdpermits .   You will need to submit a plot plan by a registered land surveyor along with your application. If the seating is on public land (e.g. the sidewalk), you will need to get approval from the Public Works Department.  For more information on how to obtain that approval, see:  http://www.cityofboston.gov/publicworks/permits/PrmSwkCafe.asp . If your total capacity (indoor and outdoor) will be more than 49 persons, you also may need to get approval from the Fire Department. See place of assembly guidelines for more information: http://www.cityofboston.gov/Images_Documents/Boston%20Fire%20Prevention%20Place%20of%20Assembly%20May%202010%20%282%29_tcm3-17853.pdf Be sure your plans for outdoor seating are reflected on any permits or licenses you already have, such as your Certificate of Occupancy,   your Food Establishment Permit (i.e. Health License), your Common Victualler License, your Certificate of Inspection, and your Place of Assembly Permit.   If these plans are not reflected, you will need to file new permit applications, and may not open your outdoor seating until each application is approved: Certificate of Occupancy : 1010 Massachusetts Avenue, 5th floor. Food Establishment Permit :  http://www.cityofboston.gov/isd/pdfs/fsapp.pdf . Common Victualler License :  http://www.cityofboston.gov/Images_Documents/Common%20Victualler_fillable_tcm3-18708.pdf . Certificate of Inspection : 1010 Massachusetts Avenue, 5th floor. Place of Assembly (if total combined capacity is over 49 persons):  http://www.cityofboston.gov/fire/inspections/assembly.asp ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. In order to offer outdoor seating, you must get permission from the property owner (which is the City of Boston Department of Public Works in the case of public sidewalks), and ensure that your plans for outdoor seating are reflected on all permit applications and plans filed with the City.   Because this process can be somewhat lengthy, it's a good idea to figure out your plans sooner rather than later."
+			}
+		]
+	},
+	{
+		"id": 40,
+		"question" : "Will you be using any unconventional materials not normally found in kitchens (such as propane, charcoal, or wood)?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .   Please see the information below. You will need to apply for an Annual Permit  for the storage of hazardous materials  from the Boston Fire Dept: http://www.cityofboston.gov/Images_Documents/ANNUAL%20PERMIT%20APPLICATION_tcm3-17549.pdf ."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. If you cook using any non-conventional commercial methods, such as with propane or in a wood-burning oven, you may need to apply for an Annual Permit with the Boston Fire Department: http://www.cityofboston.gov/Images_Documents/ANNUAL%20PERMIT%20APPLICATION_tcm3-17549.pdf   For more information, call the Fire Department at 617-343-3447."
+			}
+		]
+	},
+	{
+		"id": 41,
+		"question" : "Will you have valet parking?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .   Please see the information below. Contact the Boston Transportation Department s Off-Street Parking Division at 617-635-4489."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. For more information regarding valet parking, see:  http://www.cityofboston.gov/transportation/valet.asp ."
+			}
+		]
+	},
+	{
+		"id": 42,
+		"question" : "Have you identified a company to perform your hood cleaning and inspections?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .  Please see the information below. Every commercial cooking hood must be inspected annually by a private inspector licensed by the Boston Fire Department.  The inspector will provide you with a sticker to affix to your hood verifying that it has been inspected.   For a list of licensed inspectors, see:   http://www.cityofboston.gov/Images_Documents/Registered%202011_tcm3-24154.pdf ."
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. Every commercial cooking hood must be inspected annually by a private inspector licensed by the Boston Fire Department.  The inspector will provide you with a sticker to affix to your hood verifying that it has been inspected.    For a list of licensed inspectors, see:   http://www.cityofboston.gov/Images_Documents/Registered%202011_tcm3-24154.pdf ."
+			}
+		]
+	},
+	{
+		"id": 43,
+		"question" : "Will you be doing nails in your salon?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .   Please see the information below. All nail salons in the City of Boston must be permitted by the Boston Public Health Commission.  For information about this permit and how to apply, see:   http://www.bphc.org/boardofhealth/regulations/Forms%20%20Documents/Nail%20Salon%20Guidelines.pdf."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. The Boston Public Health Commission regulates nail salons as of July 5, 2011.   For more information, and to find out if your business is covered under these regulations, see:   http://www.bphc.org/boardofhealth/regulations/Forms%20%20Documents/Nail%20Salon%20Guidelines.pdf ."
+			}
+		]
+	},
+	{
+		"id": 44,
+		"question" : "Are your hair stylist, manicurist and/or massage personnel licensed?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : "You've answered no .   Please see the information below. Any personnel performing these services must be licensed by the State.  To learn how to obtain professional licensure, please contact: Massachusetts Division of Professional Licensure 239 Causeway Street, Suite 500 Boston, MA 02114 Phone: 617-727-3074 Website: www.mass.gov/dpl"
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. To check if someone has a license and is in good standing with the Massachusetts Divison of Professional Licensure, visit: http://license.reg.state.ma.us/public/licque.asp"
+			}
+		]
+	},
+	{
+		"id": 45,
+		"question" : "Are you using acetone or any other flammable chemicals?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. You will need to apply for an Annual Permit from the Boston Fire Department for the storage of acetone and other flammable chemicals: http://www.cityofboston.gov/Images_Documents/ANNUAL%20PERMIT%20APPLICATION_tcm3-17549.pdf . All flammables must be stored in cabinets that comply with  NFPA 30 and CMR 780; ask your cabinet's manufacturer or distributor if your storage cabinets comply. "
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .   Please see the information below. Many of the chemicals used in salons are flammable, and therefore regulated by the Boston Fire Department (BFD).   To find out if products in your salon qualify, contact the BFD at 617-343-2191."
+			}
+		]
+	},
+	{
+		"id": 46,
+		"question" : "Will you have any scales or bar code scanners?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. All food scales and scanners must be inspected by the Inspectional Services Department's Weights & Measures Division.   You can request an inspection by calling 617-961-3248."
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you do use any food scales or scanners, they must be inspected by the Inspectional Services Department's Weights & Measures Division.    You can request an inspection by calling 617-961-3248."
+			}
+		]
+	},
+	{
+		"id": 47,
+		"question" : "Will you be serving any potentially hazardous food items (such as meat, dairy, or eggs) – for example, heating up prepared foods, or making sandwiches at a deli counter?",
+		"answers": [
+			{
+				"answer ": "yes",
+				"triggers" : [],
+				"text" : "You've answered yes .  Please see the information below. At least one full-time person on your staff must be certified as a food protection manager.   See the guidelines here: http://www.cityofboston.gov/isd/health/fmcert.asp . Certification classes are not licensed by the City; however, the Health Division maintains a current listing of trainers and scheduled trainings.   Call 617-635-5326 for more information.  "
+			},
+			{
+				"answer ": "no",
+				"triggers" : [],
+				"text" : ""
+			},
+			{
+				"answer ": "I don't know",
+				"triggers" : [],
+				"text" : "You've answered I don't know .  Please see the information below. If you decide to serve any potentially hazardous food items, at least one full-time person on your staff must be certified as a food protection manager.   See the guidelines here: http://www.cityofboston.gov/isd/health/fmcert.asp . Certification classes are not licensed by the City; however, the Health Division maintains a current listing of trainers and scheduled trainings.   Call 617-635-5326 for more information.  "
+			}
+		]
+	}
+	]
+}
